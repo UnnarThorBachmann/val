@@ -1,0 +1,510 @@
+AFG 104	AFTÆ2LS07	SASK2SS05	haust	 
+AFÍ 101	AÍÞR2AÍ02	 	haust, vor	 
+ALM 103	ALME1LH05	 	haust	Almenn lyfjafræði 103, eftir Guðrúnu Kjartansdóttur
+AST 101	AÐST1FA02	 	haust, vor	
+AVT 105	AVTA2AS10	 	haust	 
+AVT 205	AVTA3SÞ10	 	vor	 
+ÁEF 102	ÁEFR2TF03	 	haust	 
+ÁEF 202	ÁEFR3BA03	ÁEFR2TF03	vor	 
+ÁEFS2AB05	ÁEFS2AB05	 	óreglulega	 
+ÁEFS2BB05	ÁEFS2BB05	 	óreglulega	 
+BÍÓ 103	KVMG1ST05	 	haust, vor	Upplýsingar hjá kennara
+BÍÓ 203	KVMG2SJ05	KVMG1ST05 eða reynsla í kvikmyndagerð	vor	Upplýsingar hjá kennara
+BÍÓ 303	KVIK2HS05	KVMG1ST05	haust	 
+BÍÓ 403	KVMG3LO05	KVMG2HS05	vor	 
+BÓK 103	BÓKF1IB05	 	haust, vor	Tvíhliða bókhald 1,34 eftir Sigurjón Valdimarsson útgefin 2015. Bókin verður seld í skólanum.
+BÓK 203	BÓKF2FB05	BÓKF1IB05	vor	Tvíhliða bókhald 2,32 (útg. 2009) eftir Sigurjón Valdimarsson
+BÓK 213	BÓKF2TB05	BÓKF1IB05	haust	Verkefni í tölvubókhaldi, hefti 1 og 2 eftir Tómas Sölvason
+Í hár saman, tekið saman af Tölvufræðslunni á Akureyri
+DAN 103	DANS1GR05	Fyrir nemendur með dönskueinkunn C á grunnskólaprófi	haust, vor	Ljósritað efni frá kennara. Nemendur greiða fyrir það 1500 kr. í upphafi annar. (Innheimt í heimabanka). Nauðsynlegt er að hafa aðgang að dansk-íslenskri orðabók.
+DAN 193	DANS1UN05	Fyrir nemendur með dönskueinkunn D á grunnskólaprófi.	haust, vor	Ljósritað efni frá kennara. Nemendur greiða fyrir það 1500 kr. í upphafi annar. (Innheimt í heimabanka). Nauðsynlegt er að hafa aðgang að dansk-íslenskri orðabók.
+DAN 202	DANS1GR03	DAN 102	haust, vor	GNIST, smásagnasafn eftir: Randi Benedikte Brodersen, Brynja Stefánsdóttir, Jens Monrad. (Iðnú). Tænk på et tal (Anders Bodelsen) læsepædagogisk bearbejdet af Christina Nielsen og Ulla Koch Gregersen.Verkefnahefti. Fæst hjá kennara. Danskur málfræðilykill eftir Hrefnu Arnalds, Mál og menning, Reykjavík 1996. Nauðsynlegt er að hafa aðgang að dansk-íslenskri orðabók.
+DAN 203	DANS2RM05	DANS1GR05 eða einkunn A eða B á grunnskólaprófi	haust, vor	Ljósritaðir tekstar og verkefni. Nánari upplýsingar fást hjá kennara í upphafi annar. Glimt eftir Randi Benedikte Brodersen, Brynju Stefánsdóttur og Jens Monrad, IÐNÚ 2015. Danskur málfræðilykill eftir Hrefnu Arnalds, Mál og menning, Reykjavík 1996. Nauðsynlegt er að hafa aðgang að dansk-íslenskri orðabók.
+DAN 212	DANS2RM03	DAN 202	haust, vor	Danmarks mosaik III eftir Bjarna Þorsteinsson og Michael Dal (Tekstbog og opgavebog)Glimt eftir Randi Benedikte Brodersen, Brynja Stefánsdóttir og Jens Monrad, Iðnú.(2015). Ljósritaðar smásögur sem kennari útbýtir. Danskur málfræðilykill eftir Hrefnu Arnalds, Mál og menning, Reykjavík. Nauðsynlegt er að hafa aðgang að dansk-íslenskri orðabók.
+DAN 303	DANS2AU05	DANS2RM05	vor	Tekstahefti. Fæst hjá kennara í upphafi annar.Ungdom og galskab. Ritstjóri Elísabet Valtýsdóttir. Mál og menning.Andrea elsker mig, skáldsaga af Niels Rohleder.Kennsluefni tengt verkefni um listir og menningu. Fæst hjá kennara.Kennsluefni á Moodle tengt hreyfimyndum (stuttmyndum).
+Danskur málfræðilykill eftir Hrefnu Arnalds, Mál og menning, Reykjavík 2012.
+Nauðsynlegt er að hafa aðgang að dansk-íslenskri orðabók t.d. snara.is.
+DAN 313	DANS2KV05	DANS2RM05	haust	Upplýsingar hjá kennara
+DAN 323	DANS2TM05	DANS2RM05	vor	Taláfangi (námsgögn hjá kennara)
+DAUH2SÖ05	DAUH2SÖ05	SÓTS2HR05	breytilegt	 
+EÐL 103	EÐLI2GR05	RAUN1JE05 og æskilegt er að nemandi hafi lokið STÆR2HV05	haust, vor	Kennslubók sem gott er að eiga: Eðlisfræði 103 eftir Davíð Þorsteinsson. Útg. ágúst 2000. Dæmasafn frá kennara og glósur í Moodle.
+EÐL 203	EÐLI2AV05	EÐLI1GR05 og STÆR2HV05	haust	Eðlisfræði 203 eftir Davíð Þorsteinsson. Útg. ágúst 2001.
+EÐL 303	EÐLI3BR05	EÐLI1GR05 og STÆR2HV05	vor 	Eðlisfræði 303 eftir Davið Þorsteinsson
+EFN 103	EFNA2AM05	RAUN1LE05	haust, vor	Chemistry. Gefin út af OpenStax College. Ókeypis á netinu: https://openstax.org/details/chemistry
+EFN 203	EFNA2GE05	EFNA2AM05	haust, vor	Chemistry. Gefin út af OpenStax College. Ókeypis á netinu: https://openstax.org/details/chemistry
+EFN 303	EFNA3RS05	EFNA2GE05	haust	Chemistry. Gefin út af OpenStax College. Ókeypis á netinu: https://openstax.org/details/chemistry
+EFN 313	EFNA3LR05	EFNA2AM05	vor	Upplýsingar hjá kennara
+EFN 413	EFNA3LE05	 	haust	 
+ENS 103	ENSK1GR05	Fyrir nemendur með enskueinkunn C á grunnskólaprófi.	haust	Innovations Upper Intermediate eftir Hugh Dellar og Andrew Walkley - Kaflar 1-5/6Macmillan English Grammar in Context (Intermediate with key) With CD-RomLois Duncan: Killing Mr GriffinKjörbók (veljið EINA af eftirfarandi bókum: The Breadwinner - D Ellis, Buddy - N Hinton, Memory Boy - W Weaver)Nemendur þurfa að kaupa sérstaka bók til ritunar, annaðhvort litla stílabók eða dagbók. Auk þess verða nemendur að eiga möppu undir verkefni.
+ENS 193	ENSK1UN05	Fyrir nemendur með enskueinkunn D á grunnskólaprófi.	Haust, vor	Ekki er ætlast til að nemendur kaupi kennslubækur fyrir þennan áfanga en að sjálfsögðu verða þeir að hafa aðgang að góðri orðabók - til dæmis á netinu. Nemendur þurfa að eiga A4 lausblaðamöppu og í hana skal safna öllum verkefnum sem þeir vinna - einnig þarf að eiga litla stílabók 
+ENS 203	ENSK2LO05	ENSK1GR05 eða grunnskólaeinkunn A eða B	haust, vor	Innovations Upper Intermediate eftir Hugh Dellar og Andrew Walkley
+Macmillan English Grammar in Context (Intermediate with key) With CD-RomTristan and Iseult by Rosemary Sutcliff (New Windmill Series)
+Kjörbók (velja skal eina af eftirfarandi bókum: Parvana´s Journey - D Ellis, Boy Meets Boy - Levithan, The Curious Incident of a Dog in the Night time by Mark Haddon, The Giver - Lois Lowry)
+ENS 212	ENSK2LO03	ENS 202	haust, vor	Innovation  - Upper intermediate eftir Huge Dellar og Andrew Walkley 
+Macmillan English Grammar in Context (Intermediate with key) With CD-Rom Tristan and Iseult by Rosemary Sutcliff (New Windmill Series)Eins verða lesnar smásögur og greinar sem kennari afhendir Kjörbók (velja skal eina af eftirfarandi bókum: Boy Meets Boy - Levithan, The Curious Incident of a Dog in the Night time by Mark Haddon, The Giver - Lois Lowry)
+ENS 303	ENSK2OB05	ENSK2LO05	haust, vor	Innovations: Coursebook, by Hugh Dellar og Andrew Walkley. (bleik/fjólublá)
+Enskur málfræðilykill (Mál og menning) Tortilla Flat - John Steinbeck (required reading) Kjörbók (velja skal eina af eftirfarandi: Tales of Dunk & Egg - G. R.R. Martin, The Nethergrim - Matthew Jobin, Looking for JJ - Ann Cassidy, 1984 - George Orwell )
+ENS 373	ENSK2VE05	ENSK2OB05	vor	New Insights into Business (Longman)
+ENS 403	ENSK3SA05	ENSK2OB05	haust, vor	
+Innovations Coursebook– Advanced – Hugh Dellar and Andrew Walkley, kaflar 13-24 (total of 7 chapters)
+To Kill a Mockingbird – by Harper Lee
+Tímaritsgreinar og annað efni frá kennara.
+Kjörbók (velja skal eina af eftirfarandi bókum): The Summer That Never Was - JP Robinson, Life After Life - Kate Atkinson eða Secret History - Donna Tart. A Streetcar Named Desire - Tennessee Williams
+ENS 473	ENSK2EH05	5 feiningar á 2. þrepi	haust, vor	Professional English in Use - Medicine (Professional English in Use) (Paperback) by Eric Glendinning Ron Howard auk ítarefnis frá kennara.
+ENS 503	ENSK3RO05	ENSK3SA05	haust, vor	
+Willy Russell: Educating Rita William Golding: Lord of the Flies
+Textar og önnur verkefni hjá kennara
+Kjörbók I (1914-45) (velja skal eina af skáldsögum: Down & Out in Paris and London - G Orwell, A Farewell to Arms - E Hemingway, Goodbye to Berlin - C Isherwood, Mrs. Dalloway - Virgina Wolf)
+Kjörbók II (eftir 1945) (velja skal eina af eftirfarandi skáldsögum: Sylvia Plath: The Bell Jar, Kurt Vonnegut: Hocus Pocus, Toni Morrison: Sula, Ralph Ellison: Invisible Man)
+
+ENS 523	ENLÆ3LÓ05
+ENSK3SA05	einungis í fjarnámi	Peggy C. Leonard: Building a Medical Vocabulary, sixth edition.  Ekki þarf að kaupa bókina.
+Handbók læknaritara:  Bogi Ingimarsson, Eiríkur Páll Eiríksson og Gerður Helgadóttir. Þetta er góð handbók, en ekki er skylda að kaupa hana.
+Góð orðabók, ensk-ensk og/eða ensk- íslensk – annað hvort á bók eða á netinu.
+Eins er gott að vera með medical dictionary, t.d. Dorland’s Medical Dictionary, en það er engin skylda. Dorland’s er til í tveimur stærðum og sú minni nægir.
+Orðabankinn og Merriam-Webster á hvar.is á netinu.
+ENS 603	ENSK3BM05	ENSK3RO05	vor	
+Upplýsingar hjá kennara.
+
+ENS 622	ENLÆ3ÞÆ04	ENLÆ3LÓ05	einungis í fjarnámi	Peggy C. Leonard: Building a Medical Vocabulary, 6. útgáfa. 
+Ritunartextar hjá kennara.
+ENS 703	ENSK3RI05	ENSK3RO05 eða ENSK3BM05	haust	
+Bókalaus áfangi
+
+ENS 803	ENSK3KV05	ENSK3SA05 (8 og yfir í einkunn), annars ENSK3RO05 eða ENSK3BM05	vor	
+America on Film - H.M. Benshoff & S.Griffin
+ENSK3ME05	ENSK3ME05	Jarðfræði á 1. þrepi og 5 feiningar í ensku á 3 þrepi.	haust	 
+FAL 101	LATÍ1FL02	 	vor	Hefti afhent af kennara.
+FAL 102	FALÆ3OB04		vor	 
+FAL 201	FALÆ3HU02	FALÆ3OB04	haust	 
+FEM 103	FEMP2FH05	 	vor	 
+FEM 201	FEMA2ST02	 	haust, vor	 
+FÉL 103	FÉLV1IF05	 	haust, vor	Garðar Gíslason, (2008, 3. útgáfa). Félagsfræði, einstaklingur og samfélag. Mál og menning.
+FÉL 203	FÉLA2KE05	FÉLV1IF05	haust, vor	Garðar Gíslason: Félagsfræði II. Kenningar og samfélag. Mál og Menning 2007 eða 2016.
+FÉL 303	FÉLA3ST05	FÉLA2KE05	haust, vor	Magnús Gíslason Stjórnmálafræði fyrir framhaldskóla 
+Ljósritaðar greinar og annað efni sem kennari dreifir.
+FÉL 313	FÉLA3ÞR05	FÉLA2KE05	haust, vor	Hannes Í. Ólafsson: Ríkar þjóðir og snauðar. Iða 2007 (eða Mál og menning 2002). 
+Ítarefni sem kennari bendir á. 
+FÉL 403	FÉLA3AÐ05	FÉLA3ST05 eða FÉLA3ÞR05 (það má taka áfangann samtímis öðrum þessara áfanga)	vor	Björn Bergsson. 2002. Hvernig veit ég að ég veit? Félagsfræðikenningar og rannsóknaraðferðir. Iðnú.
+Annað lesefni sem kennari og nemendur velja
+FHT 101	FHTA2GÞ04	 	haust	 
+FHTA3FR05	FHTA3FR05	 	vor	 
+FJÖ 103	FJÖL1FS05	 	haust, vor	Upplýsingar hjá kennara
+FLL 103	FÉLY1LL05	 	haust	
+Upplýsingar hjá kennara
+
+FOS 102	FOSA2FO04	 	haust	 
+FOSA3SA04	FOSA3SA04	 	vor	 
+FRA 103	FRAN1AG05	 	haust, vor	Le nouveau Taxi 1, lesbók og vinnubók
+FRA 203	FRAN1AF05	FRAN1AG05	haust, vor	Le nouveau Taxi 1, lesbók og vinnubók
+FRA 303	FRAN1AU05	FRAN1AF05	haust, vor	
+Le nouveau Taxi 1, lesbók og vinnubók
+À la recherche de Mariana
+
+FRA 403	FRAN2BG05	FRAN1AU05	haust, vor	
+Le nouveau Taxi 2, lesbók
+Le reflet
+
+FRA 503	FRAN2BM05	FRAN1AU05	haust	
+Notre-Dame de Paris, Victor Hugo (frá CLE).
+Maigret et la vieille dame, Georges Simenon.
+
+FRA 513	FRAN2ME05	FRAN1AU05	vor	
+Le malade imaginaire
+Double rencontre
+On a volé Mona Lisa
+
+GST 102	GÆST2VE04	 	haust	Upplýsingar hjá kennara
+HAG 103	HAGF2AR05	STÆR1GR05 eða stærðfræðieinkunn A eða B á grunnskólaprófi.	vor	Rekstrarhagfræði fyrir framhaldsskóla eftir Helgi Gunnarsson. Útg. 2008.  
+Verkefnahefti fæst hjá kennara
+HAG 113	HAGF2AÞ05	STÆR1GR05 eða stærðfræðieinkunn A eða B á grunnskólaprófi.	haust, vor	Þjóðhagfræði eftir Þórunni Klemenzdóttur. Útg. 2008. Mál og menning
+HAG 203	HAGF3FR05	HAGF2AR05	haust	Rekstrarhagfræði eftir Vífil Karlsson, útg. 2016. Nánari upplýsingar hjá kennara.
+HAG 213	HAGF3FÞ05	HAG F2AÞ05	vor	Þjóðhagfræði eftir Þórunni Klemenzdóttur (2008).  Þetta er sama bók og notuð er í HAGF2AÞ05
+HÁT 103	VIBS2KU03	 	haust	 
+HÁT 201	VIBS2KF02	 	vor	 
+HBF 103	HBFR1HH05	 	haust, vor	
+Bjerva, Haugen og Stordal. 2003. Líf og heilsa. Þýð: Elísabet Gunnarsdóttir. Mál og Menning
+Jafnframt er nemendum bent á greinar í blöðum, tímaritum og á veraldarvefnum, sem tengjast efni áfangans.
+Námsefnið er vistað í Moodle kennsluumhverfinu.
+
+HJÚ 103	HJÚK1AG05	Tvær annir í framhaldsskóla	haust	Almenn hjúkrun, Hjúkrun 1. Þrep (2013), ritsjórn: Anne Sofie Steens og Lissi Hansen, ritstjóri íslensku útgáfunnar Aðalbjörg Stefanía Helgadóttir (2016)
+HJÚ 203	HJÚK3ÖH05	HJÚK2HM05 og HJÚK2TV05	haust	HJÚKRUN 3. Þrep, Aðalbjörg Stefanía Helgadóttir o.fl. IÐNÚ.
+HJÚ 303	HJÚK2HM05	HJÚK1AG05 og HJVG1VG05	vor	Hjúkrun fullorðinna 2. Þrep. IÐNÚ útgáfa, 2015. Ritstjóri íslensku útgáfunnar: Aðalbjörg Stefanía Helgadóttir
+HJÚ 403	HJÚK2TV05	HJÚK1AG05 og HJVG1VG05	vor	Hjúkrun fullorðinna 2. Þrep. IÐNÚ útgáfa, 2015. Ritstjóri íslensku útgáfunnar: Aðalbjörg Stefanía Helgadóttir
+HJÚ 503	HJÚK3FG05	HJÚK2HM05 og HJÚK2TV05	haust	Upplýsingar hjá kennara.
+HJÚK3LO03	HJÚK3LO03	HJÚK3FG05 og HJÚK3ÖH05 (má taka samhliða)	haust, vor	Gagnfræðakver handa háskólanemum, höf. Friðrik H. Jónsson og Sigurður J. Grétarsson, 4. útg. Háskólaútgáfan, Rvk. 2007. 
+Handbók um ritun og frágang, höf Ingibjörg Axelsdóttir og Þórunn Blöndal, Mál og menning Rvk. 2010
+HJV 103	HJVG1VG05	HJÚK1AG05 (má taka samhliða)	haust	
+Kennsluhefti í verklegri hjúkrun fyrir sjúkraliða (fjölritað handrit) tekið saman af Hildi S. Sigurðardóttur og Ingu Lútersdóttur
+Hjúkrun 2. þrep, Aðalbjörg Stefanía Helgadóttir ritstjóri, Iðnú, 2015
+
+HLSE1NV03	HLSE1NV03	 	vor	 
+HNU 104	HEIN3HN05	KLNU3NT07	vor	Heildrænt nudd eftir Finnboga Gunnlaugsson. Fæst hjá kennara. Ljósrit frá kennara
+HOS 103	HOSG2SS05	 	haust	Afhent af kennara
+HOS 202	HOSG2TT04	 	
+vor
+
+Gögn af Moodle frá kennara, ásamt ýmsum ljósritum og heimasíðum.
+HOS 302	HOSG2ÞS04	 	Haust	Afhent af kennara
+HSP 103	HEIM2IH05	FÉLV1IF05	haust, vor	
+Gorgías eftir Platón. Þýð. Eyjólfur Kjalar Emilsson. Hið íslenzka bókmenntafélag, Reykjavík 1991.
+Einnig fjölritað efni frá kennara, m.a. úr Saga mannsandans e. Ágúst H. Bjarnason
+
+ILM 103	ILMO2KO05	 	haust	ILM103 – Kennsluhefti (fæst hjá kennara), ilmkjarnaolíur, grunnolíur o.fl.
+INU 103	INNU2GR05	 	haust	Efni frá kennara
+ÍNT 103	ÍÞNT3ÍT05	KLNU3NT07	vor	Ljósrit og glærur.
+ÍSA 103	ÍSAN1GR05	Tvö ár í íslenskum grunnskóla eða viðurkennt íslenskunám.	haust	Sólborg Jónsdóttir og Þorbjörg Halldórsdóttir. 2011. Íslenska fyrir alla 3. Netútgáfa sem fellur undir Creative Commons leyfið. Prentað hefti fæst á skrifstofu skólans.
+Kjörbók (upplýsingar hjá kennara).
+ÍSA 203	ÍSAN2GM05	ÍSAN1GR05	vor	Sólborg Jónsdóttir og Þorbjörg Halldórsdóttir. 2011. Íslenska fyrir alla 4. Netútgáfa sem fellur undir Creative Commons leyfið. Prentað hefti fæst á skrifstofu skólans.
+Fýkur yfir hæðir. Friðrik Erlingsson þýddi endursögn Gill Tavner. Námsgagnastofnun, Reykjavík.
+Bram Stoker. 2011. Drakúla. Friðrik Erlingsson þýddi endursögn Chaz Brenchlay. Námsgagnastofnun, Reykjavík.
+ÍSA 303	ÍSAN3BÓ05	ÍSAN2GM05	haust	Upplýsingar hjá kennara
+ÍSA 403	ÍSAN2BS05	ÍSAN3BÓ05	vor	
+Upplýsingar hjá kennara
+
+ÍSA 503	ÍSAN3NB05	ÍSANBS05	haust	
+Upplýsingar hjá kennara
+
+ÍSL 103	ÍSLE1GR05	Fyrir nemendur með íslenskueinkunn C á grunnskólaprófi	haust	Tungutak – beygingarfræði handa framhaldsskólum og Spegil Spegil.
+ÍSL 193	ÍSLE1UN05	Fyrir nemendur með íslenskueinkunn C á grunnskólaprófi.	haust	
+Lausblaðamappa til að safna í verkefnum. Mæli með fjögurra gata möppu frá Múlalundi.
+
+ÍSL 203	ÍSLE2GM05	ÍSLE1GR05 eða íslenskueinkunn A eða B á grunnskólaprófi.	haust, vor	
+Íslenska tvö (Edda útgáfa) 
+Uppspuni. Nýjar íslenskar smásögur. 2004. Rúnar Helgi Vignisson annaðist útg. Bjartur, Reykjavík. Nemendur lesa og gera verkefni úr sögunum.
+Tvær vikur á önninni eru notaðar í ritunarvinnu.
+Nemendur lesa eina kjörbók og taka krossapróf í henni.
+
+ÍSL 212	ÍSLE2GM03	ÍSL 202	haust, vor	Íslenska tvö (Edda útgáfa). 
+Kjörbók valin í samráði við kennara.
+ÍSL 303	ÍSLE3BÓ05	ÍSLE2GM05	haust, vor	
+Ormurinn langi (Bjartur)
+Á haustönn: Brennu-Njáls saga. 2002. Jón Böðvarsson bjó til prentunar og samdi verkefni. Iðnú, Reykjavík.
+Á vorönn: Egils saga. 1992. Bergljót S. Kristjánsdóttir og Svanhildur Óskarsdóttir önnuðust útg. (Sígildar sögur 2). Mál og menning, Reykjavík.
+Auk þess er lesefni um bókmenntagreinar á heimasíðu áfangans, gagnvirk próf, spurningar um efni bóka og verkefni.
+
+ÍSL 403	ÍSLE2BS05	5 feiningar í íslensku á 2. þrepi	haust, vor	Halldór Laxness. 1943-46. 
+Íslandsklukkan - nota má hvaða útgáfu sem er. 
+Kristinn Kristjánsson. 1996. Íslenskar bókmenntir frá 1550 -1900. Iðnú, Reykjavík. 
+Ormurinn langi (Bjartur) 
+Auk þess eru verkefni á heimasíðu áfangans, gagnvirk próf og spurningar um efni bóka.
+ÍSL 503	ÍSLE3NB05	10 feiningar í íslensku á 2. þrepi	haust, vor	
+Halldór Laxness. 1934-35. Sjálfstætt fólk. Nota má hvaða útg. sem er.
+Kjörbók á heimasíðu íslenskudeildar.
+Kristján Jóhann Jónsson o.fl. 1999. Þyrnar og rósir. Sýnisbók íslenskra bókmennta á 20. öld. Vaka - Helgafell.
+Dagný Kristjánsdóttir. Öldin öfgafulla, bókmenntasaga 20. aldarinnar. Bjartur. 2010.
+Ef nemendur vilja kynna sér áfangann er hægt að skoða heimasíðu íslenskudeildar. 
+Moodle-umhverfi er notað í áfanganum.
+
+ÍSL 633	ÍSLE3BU05	5 feiningar í íslensku á 3. þrepi	haust	
+Raddir barnabókanna. 1999. Silja Aðalsteinsdóttir sá um útgáfuna. Mál og menning, Reykjavík. 
+Ýmsar barna- og unglingabækur. 
+Greinar um barna- og unglingabækur. 
+Veraldarvefurinn
+Moodle-umhverfið er notað í áfanganum.
+
+ÍSL 873	ÍSLE3LG05	5 feiningar í íslensku á 3. þrepi	haust, vor	 
+ÍSLE2HM05	ÍSLE2HM05	ÍSLE1GR05 eða íslenskueinkunn A eða B á grunnskólaprófi.	vor	 
+ÍSLE2MR05	ÍSLE2MR05 
+Bókmenntir, málnotkun og ritun	ÍSLE1GR05 eða íslenskueinkunn A eða B á grunnskólaprófi.	haust	Náðarstund eftir Hannah Kent.
+ÍST 193	ÍSTA1AG05	 	haust, vor	
+Upplýsingar hjá kennara
+
+ÍVN 102	KINE3KP04	 	vor	Jafnvægi á líkama. Kennslubók í grunn-kinesiology. Höfundar: Edel Hovgaard og Jarle Tamsen. Ljósritað heftir um kineseteipingar - Fæst hjá kennara.
+ÍÞG 112	ÍÞRG1KN02	 	haust, vor	 
+ÍÞNT2KY03	ÍÞNT2KY03	LÍOL2SS05	haust	Áfanginn er bæði bóklegur og verklegur. Allar upplýsingar um námsgögn fást hjá kennara í upphafi annar.
+ÍÞR 101	ÍÞRÓ1AA01 
+ÍÞRÓ1AB01	 	haust, vor	
+ÍÞR 102	ÍÞRÓ1GH03	 	haust, vor	Bókin : Þjálfun -  Heilsa -  Vellíðan og vinnubók með henni, IÐNÚ.
+ÍÞR 111	ÍÞRÓ1LS01
+Líkamsrækt/sund	 	haust, vor	Mætingarblað sem nemandinn fær hjá íþróttakennara í upphafi annar.
+ÍÞR 121	ÍÞRÓ1LS01
+Líkamsrækt/sund	 	haust, vor	Mætingarblað sem nemandinn fær hjá íþróttakennara í upphafi annar.
+ÍÞR 131	ÍÞRÓ1HJ01 
+Hjólað/gengið í skólann	 	
+haust, vor
+
+Hjól :)
+Nemendur sem taka þátt í Gengið í skólann þurfa að eiga snjallsíma og ná í smáforritið Endomondo í símann.
+
+ÍÞR 141	ÍÞRÓ1FJ01
+Fjallganga/útivist	 	haust, vor	Nemendur þurfa að vera í gönguskóm eða uppháum skóm með grófum sóla. Einnig að hafa meðferðis vatnsheldan hlífðarfatnað. Nánari upplýsingar um útbúnað verða gefnar í byrjun annar.
+ÍÞRG2BL03	ÍÞRG2BL03	ÍÞRÓ1GH03	breytilegt	Áfanginn er bæði bóklegur og verklegur. Allar upplýsingar um námsgögn fást hjá kennara í upphafi annar.
+ÍÞRG2HA03	ÍÞRG2HA03	ÍÞRÓ1GH03	vor	Áfanginn er bæði bóklegur og verklegur. Allar upplýsingar um námsgögn fást hjá kennara í upphafi annar.
+ÍÞRG2KN03	ÍÞRG2KN03	ÍÞRÓ1GH03	haust	Áfanginn er bæði bóklegur og verklegur. Allar upplýsingar um námsgögn fást hjá kennara í upphafi annar.
+ÍÞRG2KÖ03	ÍÞRG2KÖ03	ÍÞRÓ1GH03	haust	Áfanginn er bæði bóklegur og verklegur. Allar upplýsingar um námsgögn fást hjá kennara í upphafi annar.
+ÍÞRG2LÍ03	ÍÞRG2LÍ03	ÍÞRÓ1GH03	vor	Áfanginn er bæði bóklegur og verklegur. Allar upplýsingar um námsgögn fást hjá kennara í upphafi annar.
+ÍÞRG2OP03	ÍÞRG2OP03	ÍÞRÓ1GH03	breytilegt	Áfanginn er bæði bóklegur og verklegur. Allar upplýsingar um námsgögn fást hjá kennara í upphafi annar.
+JAR 103	JARÐ2JÍ05	RAUN1JE05	haust	
+Almenn Jarðfræði eftir Jóhann Ísak Pétursson og Jón Gauta Jónsson, IÐNÚ 2004
+
+JAR 113	JARÐ2SF05	RAUN1JE05	vor	Upplýsingar hjá kennara
+JAR 203	JARÐ2JS05	JARÐ2JÍ05	vor	Upplýsingar um námsefni fæst hjá kennara
+JÓG 101	JÓGA1HR02	 	haust, vor	 
+KENN3KK04	KENN3KK04	
+Kennslufræði heilbrigðisstétta	 	óreglulega	 
+KLN 104	KLNU3NT07	LÍOL2SS05, LÍOL2IL05, VÖFR2VÖ06	haust	
+Kennslubók í klassísku nuddi. Fæst hjá kennara.
+
+KYN 103	KYNJ1KY05	 	vor	Kynungabók útgefin af menntamálaráðuneytinu 2010
+Efni og myndbönd sem kennari dreifir og deilir til nemenda.
+LAN 103	LAND2AU05	 	haust, vor	Landafræði. Maðurinn, auðlindirnar og umhverfið e. Peter Östman o.f.l. Útgefandi MÁL OG MENNING. Auk þess efni frá kennara.
+LEI 103	LEIK1GR05	 	haust	 
+LEIS1SL05	 	 	 	 
+LHF 103	LYHR3MÖ05	Æskilegir undanfarar: LÍOL2IL05 og SJÚK2GH05	haust	Áhrif lyfja, eftir Eggert Eggertsson 
+Sérlyfjaskráin (lyfjaupplýsingar á netinu) - www.lyfjastofnun.is
+LHF 203	LYHR3KS05	Æskilegir undanfarar: LÍOL2IL05 og SJÚK2GH05	haust	Áhrif lyfja, eftir Eggert Eggertsson
+Sérlyfjaskráin (lyfjaupplýsingar) á netinu - www.lyfjastofnun.is.
+LHF 303	LYHR3TH05	LÍOL2IL05 OG SJÚK2GH05	vor	Glærur frá kennara (í Moodle)
+Ýmsar tímaritsgreinar
+Sérlyfjaskráin, rafræn útgáfa (www.serlyfjaskra.is)
+LHF 403	LYHR3HK05	LÍOL2IL05 OG SJÚK2GH05	vor	Glærur frá kennara (í Moodle)
+Ýmsar tímaritsgreinar
+Sérlyfjaskráin, rafræn útgáfa (www.serlyfjaskra.is)
+LIM 103	LIME2MM05	 	vor	 
+LIM 113	LIME2LS05	 	haust	 
+LÍB 101	LÍBE1HB01	 	haust, vor	 
+LÍF 103	LÍFF2LE05	RAUN1LE05	haust, vor	 
+LÍF 113	LÍFF2VF05	LÍFF2LE05	haust	Efni frá kennara og efni sem nemendur afla sjálfir.
+LÍF 203	LÍFF3EF05	LÍFF2LE05	vor	Erfðir og líftækni eftir Mörtu Konráðsdóttur og fleiri. Ýmis gögn frá kennara.
+LÍF 213	LÍFF3ÖR05	LÍFF2LE05	haust	 
+LÍK 101	ÍÞRÓ1LÍ01	 	haust, vor	 
+LJÓ 203	LJÓS2SM05	.	vor	 
+LKN 102	LÍFS1ÉG03	 	haust	Upplýsingar hjá kennara.
+LKN 201	LÍFS1BS02	 	vor	 
+LLÖ 103	LYLÖ1LR05	 	vor	Lög og reglugerðir. Ljósrit frá kennara. Glærur frá kennara.
+LOK 103	LORI3HH05	Áfanginn skal tekinn á síðasta námsári.	haust, vor	
+Glærur og ljósrit frá kennara. Fagbækur, tímarit og vefsíður sem tengjast lokaritgerðarvinnu.
+
+LOK 113	LOKA2FV03	Áfangi ætlaður nemendum á stúdentsprófsbr. síðustu önn	haust, vor	 
+LOL 103	LÍOL2SS05	Æskilegur undanfari: RAUN1LE05	haust, vor	INTRODUCTION TO THE HUMAN BODY eftir TORTORA, GERARD J. Útg 2015. Einnig má nota eldri útgáfur eftir sömu höfunda t.d. Essentials of Anatomy and Physiology.
+Human Anatomy Colouring Book eftir M. Matt og J. Ziemian. Fæst í Bóksölu stúdenta og fleiri bókaverslunum.
+Trélitasett (12-15 litir)
+Ljósritað efni frá kennara
+LOL 202	LÍOL3TT04	LÍOL2SS05 (má taka samhliða)	vor	Lærebog for klinikassistenter 1. hefti. Útgefin af Dansk Tandlægeforening. Fæst í Bóksölu stúdenta.
+LOL 203	LÍOL2IL05	LÍOL2SS05	haust, vor	
+INTRODUCTION TO THE HUMAN BODY eftir TORTORA, GERARD J. Útg 2015. Einnig má nota eldri útgáfur eftir sömu höfunda t.d. Essentials of Anatomy and Physiology.
+Human Anatomy Colouring Book eftir M. Matt og J. Ziemian. Fæst í Bóksölu stúdenta og fleiri bókaverslunum.
+Trélitasett (12-15 litir)
+Ljósritað efni frá kennara
+
+LSL 103	LAUS2LR05	 	vor	
+Kennslubókin Lausasölulyf 103.
+Listi yfir lausasölulyf af www.lyfjastofnun.is
+
+LYF 103	LYFJ2LS05	Æskilegir undanfarar LÍOL2IL05 og SJÚK2GH05	haust	Lyfjafræði - LYFJ2LS05, höf. Bryndís Þóra Þórsdóttir, 8.útg. 2017
+LYF 111	LYFJ2TL02	 	haust	Námsgögn afhent af kennara
+LYF 112	LYFR2SF04	 	vor	Glærur frá kennara (í Moodle)
+Hefti – afhent af kennara
+Sérlyfjaskráin, rafræn útgáfa (www.serlyfjaskra.is)
+LYFR2LR04	LYFR2LR04	 	haust	 
+LYG 103	LYGE3LÚ05	 	vor	Glærur – er að finna inn í Moodle (glærur 1-14).
+Ljósrit – afhent af kennara.
+Ítarefni: Farmaci, S.S. Andersen et.al.  (dönsk kennslubók).
+LYG 204	LYGE3VL07	LYGE3LÚ05	haust	Ljósrit hjá kennara.
+LYH 103	LYHV2FD05	 	vor	
+Kennslubókin Lyfjahvarfafræði I.
+Ljósrit og glærur.
+
+LYH 203	LYHV2LL05	LYHV2FD05	haust	Lyfjahvarfafræði II, eftir Guðrúnu Kjartansdóttur.
+LÆR 106	LÆKN2LY09	 	fjarnám	 
+LÆR 206	LÆKN3HT09	LÆKN2LY09	fjarnám	 
+MAN 103	MARÉ2MR05	 	haust	 
+MGR 102	MAGR2MG05	 	haust	Kennsluefni fæst hjá kennara
+MOF 103	FORM2MF05	 	haust, vor	 
+MYL 103	MYNL1MG05	 	haust, vor	 
+MYL 203	MYNL2TA05	5 feiningar í myndlist	haust, vor	 
+MYL 303	MYNL2LI05	5 feiningar í myndlist	haust, vor	 
+MYNL3LS05	MYNL3LS05
+ 	 	 
+MYS 103	SAGA2LS05		haust	
+Saga listarinnar eftir E.H. Gombrich (hvaða útgáfa sem er).
+
+NÁM 193	LESA1DY05	Stuðningsáfangi fyrir lesblinda nemendur	haust, vor	
+Ljósritað handrit Hvernig geta nemendur nýtt hæfileika sína best í námi eftir Elínu Vilhelmsdóttur
+Myndbönd um dyslexíu eru skoðuð og rædd
+Geisladiskar með leiðbeiningum um slökun
+Ýmsir textar
+
+NÁT 103	RAUN1LÍ05/
+RAUN1LE05	 	haust, vor	Upplýsingar hjá kennara
+NÁT 113	RAUN1JA05/
+RAUN1JE05	 	haust, vor	Upplýsingar hjá kennara
+NÁT 123	RAUN1EE05	 	haust, vor	Upplýsingar hjá kennara
+NFH 103	NÁTL2NN05	NÆRI1NN05	vor	
+Glærur frá kennara.
+Ýmsar greinar og ljósrit.
+Skráð náttúrulyf á www.lyfjastofnun.is
+
+NFH 203	FÆBÓ2FH05	NÆRI1NN05	vor	Námsgögn afhent af kennara.
+NÝS 103	NÝSK2HH05	 	haust	 
+NÆR 103	NÆRI1NN05	 	haust, vor	Lífsþróttur, næringarfræði fróðleiksfúsra eftir Ólaf Gunnar Sæmundsson
+OMH 103	ORKM3OM05	SVNU3SN05	vor	
+Kineselogy - Jafnvægi á líkama. Höfundar: Edel Howgaard og Jarle Tamsen. Þýðing.: Bryndís Júlíusdóttir.
+Höfuðbeina- og spjaldhryggjarmeðferð 1 - Vinnubók.  Höfundur: John E. Upledger. Upledgerstofnunin á Íslandi 2006.
+
+RAUN1JE05	RAUN1JE05 (Grunnáfangi i jarðfræði og eðlisfræði)	 	haust, vor	Jarðargæði eftir Jóhann Ísak Pétursson og Jón Gauta Jónsson, IÐNÚ 2015
+Auk þess annað efni samkvæmt upplýsingum kennara.
+RAUN1LE05	RAUN1LE05 (Grunnáfangi í efnafræði og líffræði)	 	haust, vor	Upplýsingar hjá kennara.
+RÁÐ 101	RÁÐG1RG01	 	haust, vor	Verkefni afhent í tímum.
+Stuðst er við stuðningskerfi „Sjálfstæði, öryggi, árangur“ eftir Önnu Sigurðardóttur, Björgu Birgisdóttur og Sigríði Huldu Jónsdóttur og WATCH verkefnaheftið eftir sömu höfunda.
+RIT 123	RITV1NÁ05	 	eingöngu í fjarnámi	
+Upplýsingar hjá kennara
+
+RTG 102	RTGF2GR03	 	haust	 
+RTGF3ÞJ03	RTGF3ÞJ03	 	vor	 
+SAG 103	SAGA1MF05	 	haust, vor	Fornir tímar. Spor mannsins frá Laetoli til Reykjavíkur 4.000.000 f.Kr. til 1800 e.kr. Mál og menning, Reykjavík 2003.
+SAG 203	SAGA2NS05	SAGA1MF05	haust, vor	Íslands- og mannkynssaga NB II eftir Gunnar Þór Bjarnason og Margréti Gunnarsdóttur og efni á námsneti skólans, Moodle.
+SAG 303	SAGA3MM05	SAGA2NS05	haust, vor	Upplýsingar hjá kennara
+SAG 313	SAGA3MA05	SAGA2NS05	vor	
+20. öldin - Svipmyndir frá öld andstæðna eftir Sigurð Ragnarsson.
+Ítarefni t.d. kort og gröf frá kennara.
+Heimildakvikmyndir um sögu 20. aldar (t.d. öld fólksins).
+
+SAG 403	SAGA3KM05	SAGA2NS05	haust	Upplýsingar hjá kennara
+SAG 413	SAGA2TS05	SAGA2NS05	vor	
+Kennsluhefti fæst hjá kennara - 3000 kr.
+
+SAS 103	SASK2SS05	Æskilegur undanfari SIÐF2SF05	haust, vor	Upplýsingar hjá kennara
+SÁL 103	SÁLF2AA05	 	haust, vor	Inngangur að sálfræði eftir Kristján Guðmundsson og Lilju Ósk Úlfarsdóttir. JPV útgáfa, Reykjavík 2008
+SÁL 123	SÁLF1SD05	 	haust	
+Sálfræði daglegs lífs, eftir Lilju Úlfarsdóttur og Valgerði Ólafsdóttur. Mál og menning. 2017.
+
+SÁL 203	SÁLF3ÞS05	SÁLF2AA05	haust, vor	Aldís Guðmundsdóttir. Lengi býr að fyrstu gerð. Edda útgáfa hf., Reykjavík 2007.
+SÁL 213	SÁLF3LÍ05	SÁLF2AA05	vor	Hugur, heili og hátterni. Aldís Guðmundsdóttir og Jörgen Pind. Mál og menning. (2003)
+SÁL 303	SÁLF3AB05	SÁLF2AA05	haust	
+Upplýsingar hjá kennara
+
+SÁL 313	SÁLF2FÖ05	SÁLF2AA05	vor	Lesefni er á vefsíðum sem tenglar eru inn á í Moodle. Ekki þörf á að kaupa lesefni
+SHR 203	VIHB2SJ10	 	haust, vor	 
+SIÐ 102	SIÐF2SF05	 	haust, vor	Vilhjálmur Árnason (1993). Siðfræði lífs og dauða. Háskóli Íslands. Rannsóknarstofnun í siðfræði.
+SJÚ 103	SJÚK2MS05	LÍOL2SS05 og HBFR1HH05	haust, vor	Mc Connell, T. (2. útg. 2014), The Nature of Disease: Pathology for the Health Professions, Lippincott, Williams & Wilkins
+Efni á vefnum, sem vísað er sérstaklega til í tengslum við efnið
+Sjúkdómar í mönnum eftir Boga B. Ingimarsson. Reykjavík 1996, Iðnú. (Stuðningsefni).
+SJÚ 203	SJÚK2GH05	SJÚK2MS05 (má taka samhliða)	haust, vor	Mc Connell, T. (2. útg. 2014), The Nature of Disease: Pathology for the Health Professions, Lippincott, Williams & Wilkins. 
+Efni á vefnum, sem vísað er sérstaklega til í tengslum við námsefnið.
+Sjúkdómar í mönnum eftir Boga B. Ingimarsson. Reykjavík 1996, Iðnú.
+SKE 101	SKER3HA01	 	vor	 
+SKL 101	SKJA1SV02	 	vor	 
+SKR 102	SKRÁ2TT05	Æskilegt er að nemendur hafi lokið HBFR1HH05	haust	Upplýsingar hjá kennara
+SKY 101	SKYN2EÁ01	 	haust, vor	 
+SOG 103	SOGN3SO05	 	haust	 
+SÓT 103	SÓTT2SÓ04	 	haust	 
+SÓT 202	SÓTT3DA04	 	vor	 
+SÓTS1HR05	SÓTS1HR05	 	haust	 
+SPU 103	SPUR1SP03	 	 	 
+SPÆ 103	SPÆN1AG05	 	haust, vor	Vente 1 - libro del alumno
+Vente 1 - libro de ejercicios
+Orðabók spænsk-íslensk/íslensk-spænsk eða ensk-spænsk/spænsk-ensk.
+SPÆ 203	SPÆN1AF05	SPÆN1AG05	haust, vor	Vente 1 - libro del alumno
+Vente 1 - libro de ejercicios
+Orðabók spænsk-íslensk/íslensk-spænsk eða ensk-spænsk/spænsk-ensk.
+SPÆ 303	SPÆN1AU05	SPÆN1AF05	haust, vor	Vente 2 - libro del alumno
+Vente 2 - libro de ejercicios
+Pepa Villa. Apartamento en la Costa Brava (skáldsaga). Höfundar: Alicia Estopiñá, Neus Sans.
+Orðabók spænsk-íslensk/íslensk-spænsk eða ensk-spænsk/spænsk-ensk.
+SPÆ 403	SPÆN2BG05	SPÆN1AU05	haust, vor	Cenizas calientes (skáldsaga). Höfundar: Alicia Estopiñá, Neus Sans. Nivel MCER: B1. Útgáfa: Difusión.
+Ítarefni frá kennara.
+SPÆ 503	SPÆN2BL05	SPÆN2BG05	vor	Námsefni gefið upp síðar
+Ítarefni frá kennara.
+Galindo ha desaparecido (kjörbók)
+SPÆ 513	SPÆN2ME05	SPÆN2BG05	haust	Aires de fiesta latina 
+Do de pecho (Kjörbók) 
+Orðabók
+Námsefni frá kennaranum og hlustunarefni aðgengileg í Moodle.
+SRN 102	STRN2SR04	BÓKF1IB05	vor	Kennslu- og dæmahefti færst hjá kennara
+STH 103	STHE1HÞ05	 	vor	 
+STÍH4GV04	STÍH4GV04	 	breytilegt	 
+STÞ 208	STAF3ÞJ27	Verklegir og bóklegir hjúkrunaráfangar	haust, vor	 
+STÆ 103	STÆR1GR05		haust, vor	Stæ 105 eftir Jón Þorvarðarson, Reykjavík 2015. 
+STÆ 193	STÆR1UN05	Fyrir nemendur með stærðfræðieinkunn D á grunnskólaprófi	haust, vor	Reiknaðu með mér eftir Gunnar Pál Jóakimsson. Grunnefni til undirbúnings fyrsta áfanga framhaldsskóla í stærðfræði. Bókin er gefin út af höfundi í Reykjavík 2008. (appelsínugul bókarkápa).
+STÆ 203	STÆR2AM05	STÆR1GR05 eða stærðfræðieinkunn A eða B á grunnskólaprófi.	haust, vor	STÆ 225 eftir Jón Þorvarðarson. Útgefin í Reykjavík 2015. Aukaefni frá kennara,ljósrit um beina línu, brotin veldi og rætur, algebrubrot,logra og föll.
+STÆ 303	STÆR2HV05	STÆR2AM05	haust, vor	
+Stærðfræði 3000. Talningafræði, hornaföll og vigrar. Stærðfræði 303. Höfundar: Lars-Eric Björk og Hans Brolin.
+Kennsluumhverfið Moodle er notað í áfanganum og fær nemandi aðgang eftir að kennsla hefst. Þar er að finna allt ítarefni: reiknuð dæmi, verkefni, sýnidæmi og gömul próf.
+
+STÆ 403	STÆR3FD05	STÆR2HV05	haust, vor	Stærðfræði 3000. Föll, markgildi og deildun. Stærðfræði 403 útg. 2003 eða síðar. Höfundar: Lars-Eric Björk og Hans Brolin
+STÆ 503	STÆR3RH05	STÆR3FD05	haust, vor	Stærðfræði 3000. Heildun, deildajöfnur, runur og raðir. Stærðfræði 503 útg. 2004 eða síðar. Höfundar : Lars-Eric Björk og Hans Brolin
+STÆ 603	STÆR3TD05	STÆR3FD05	vor	
+Upplýsingar hjá kennara
+
+STÆR2HS05	STÆR2HS05	STÆR1GR05 eða stærðfræðieinkunn A eða B á grunnskólaprófi.	haust, vor	
+Hagnýt stærðfræði eftir Helmut Hinrichsen og Jónu Guðmundsdóttir
+
+Þú getur sótt bókina hér sem:
+Rafbók (epub)
+PDF-skjal
+
+SVN 104	SVNU3SN05	 	haust	 
+SÝK 103	SÝKL2SS05	 	haust, vor	Glærur og önnur gögn frá kennara.
+Til stuðnings eru valdir kaflar úr bókinni Microbiology frá OpenStax sem hægt er að nálgast ókeypis hér: https://openstax.org/details/books/microbiology
+SÞJ 016	STÞL3FE27	 	haust, vor	 
+SÞJ 102	MASK2SV03	 	haust, vor	 
+SÞJ 204	MASK2SV07	 	haust, vor	 
+SÞN 102	MAVE3SÞ02	 	vor	 
+SÞN 203	MAVE3SÞ03	 	haust	 
+SÞN 315	STÞN3SÞ18	 	haust, vor	 
+TAN 101	TANL3TU02	 	haust	 
+TAR 101	TARE3TT02	 	haust	 
+TAS 101	STKY3AS04	 	vor	 
+TLE 103	TÖLE2SE05	 	vor	Kennslugögn frá kennara – dreift í tíma og/eða á Moodle.
+TMS 103	TAMS3TT05	Æskilegt er að nemendur hafi lokið HBFR1HH05 og NÆRI1NN05	haust	Stuðst er við Tandklinikassistent, grundforløb og hovedforløb, útgefin af Erhvervsskolernes Forlag. www.ef.dk ásamt ítarefni á netinu og hjá kennara.
+TMS 203	TAMS3SA05	TAMS3TT05	vor	 
+TUM 103	TUPP2AT05	LYLÖ1LR05, UPPL1GT05	vor	Námsgögn afhent af kennara.
+TÖH 113	TÖHÖ2LH05	 	haust, vor	Kennslugögn og verkefni frá kennara
+GIMP og Multimedia Fusion
+TÖL 103	TÖLV1FG05	 	haust	Upplýsingar hjá kennara
+TÖL 123	UPLÆ2EP05	Nemendur þurfa að hafa þekkingu í almennri tölvunotkun	eingöngu kennt í fjarnámi	
+Upplýsingar hjá kennara
+
+TÖL 222	UPLÆ2UM04	UPLÆ2EP05	eingöngu kennt í fjarnámi	
+Upplýsingar hjá kennara
+
+TÖLE3LG05	TÖLE3LG05	TÖLE2LH05	haust	 
+UMH 103	UMHV1SJ05	 	haust, vor	 
+UMR 112	UMRÁ1UR03	 	haust, vor	 
+UPP 103	SÁLF2UM05	Æskilegt að nemendur hafi tekið 5 feiningar í sálfræði á 2. þrepi	haust, vor	Uppeldi Kennslubók fyrir framhaldsskóla eftir Guðrúnu Friðgeirsdóttur og Margréti Jónsdóttur,Mál og menning,2005. 
+Ljósrit hjá kennara.
+UTH 103	UPPÆ1SR05	 	haust, vor	 
+UTN 103	UPPL1GT05	 	eingöngu kennt í fjarnámi	Upplýsingar hjá kennara
+VAP 014	VAPÓ3LT24	ALME1LH05, AFTÆ2LS07, LAUS2LR05, LYLÖ1LR05, TUPP2AT05	haust, vor	
+Námsgögn afhent af kennara
+
+VEH 203	VIHB2HG10	 	haust, vor	 
+VFF 103	VÖFR2VÖ06	LÍOL2SS05 (hægt að taka samhliða)	vor	
+Trail guide to the body. Andrew Biel.  Books of Discovery, 4. útg. 2010.
+Vöðvafræði eftir Boga Ingimarsson (útgáfa 2002), fæst eingöngu hjá höfundi. Hægt er að panta hana á netfangi bogi@fa.is. 
+
+VIÐ 103	STJR3IS05	 	haust	Inngangur að stjórnun. Höfundur: Sigmar Þormar. Útg. 2007, Skipulag og skjöl ehf.
+VIÐ 113	MARK2AM05	 	vor	Sigur í samkeppni eftir Bogi Þór Siguroddsson. Útg. 2000.
+VIÐ 123	FJMÁ2FF05	STÆR1GR05 eða stærðfræðieinkunn A eða B á grunnskólaprófi.	haust	Upplýsingar hjá kennara
+VIÐ 133	NÝSK3SF05	 	vor	 
+VIÐ 143	LÖGF2LÖ05	 	haust, vor	Lög á bók eftir Sigríði Logadóttur, útgefandi Mál og menning 2016 (Forlagið).
+VIN 105	VINN3ÖH08	VINN2LS08 og HJÚK3ÖH05	vor	 
+VIN 205	VINN2LS08	HJÚK2HM05 og HJÚK2TV05	vor	 
+VIN 305	VINN3GH08	VINN2LS08 og HJÚK3FG05	vor	 
+VLT 102	VEFL3VT05	VÖFR2VÖ06, KLNU3NT07	vor	
+Kennslubók í vefjalosun tekin saman af Finnboga Gunnlaugssyni. Fæst hjá kennara.
+DVD - Integral Anatomy Series
+
+VVM 101	VIMA1RS01	 	haust	 
+ÞRÍ 103	MYNL2ÞV05	 	vor	 
+ÞRÍ 113	MYNL3ÞF05	 	haust	 
+ÞÝS 103	ÞÝSK1AG05	 	haust, vor	Passwort Deutsch 1 (A1), Klett Verlag
+Anna, Berlin von Thomas Silvin, Hueber Lese-Novelas (Deutsch als Fremdsprache).
+Málfræðibókin Þýska fyrir þig (æskileg)
+ÞÝS 203	ÞÝSK1AF05	ÞÝSK1AG05	haust, vor	Málfræðiheftir Þýska fyrir þig
+Hraðlestrarbækurnar Oktoberfest og Ein Mann zu viel
+Kennslubókin eingöngu seldhjá kennara í fyrsta tíma annar
+ÞÝS 303	ÞÝSK1AU05	ÞÝSK1AF05	haust, vor	
+Hraðlestrarbækurnar Müllmafia og Tödlicher Schnee
+Kennslubókin eingöngu seld hjá kennara í fyrsta tíma annar
+
+ÞÝS 403	ÞÝSK2BU05	ÞÝSK1AU05	haust, vor	
+Hraðlestrarbókin Der Fall Schlachter
+Kennslubókin eingöngu seld hjá kennara í fyrsta tíma annar
+
+ÞÝS 503	ÞÝSK2BM05	ÞÝSK1AU05	vor	Drei Männer im Schnee eftir Erich Kästner (ER, Easy readers/Leicht zu lesen)
+Efni frá kennara. Alnetið
+ÞÝS 513	ÞÝSK2ME05	ÞÝSK1AU05	haust	Upplýsingar hjá kennara
+ÖLHJ4HÞ05	ÖLHJ4HÞ05	 	breytilegt	 

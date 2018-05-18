@@ -1,0 +1,283 @@
+AFG 104	AFTÆ2LS07	SASK2SS05	haust	SASK2SS05
+AFÍ 101	AÍÞR2AÍ02		haust, vor	
+ALM 103	ALME1LH05		haust	
+AST 101	AÐST1FA02		haust, vor	
+AVT 105	AVTA2AS10		haust	
+AVT 205	AVTA3SÞ10		vor	
+ÁEF 102	ÁEFR2TF03		haust	
+ÁEF 202	ÁEFR3BA03	ÁEFR2TF03	vor	ÁEFR2TF03
+ÁEFS2AB05	ÁEFS2AB05		óreglulega	
+ÁEFS2BB05	ÁEFS2BB05		óreglulega	
+BÍÓ 103	KVMG1ST05		haust, vor	
+BÍÓ 203	KVMG2SJ05		vor	KVMG1ST05 eða reynsla í kvikmyndagerð
+BÍÓ 303	KVIK2HS05	KVMG1ST05	haust	KVMG1ST05
+BÍÓ 403	KVMG3LO05	KVMG2HS05	vor	KVMG2HS05
+BÓK 103	BÓKF1IB05		haust, vor	
+BÓK 203	BÓKF2FB05	BÓKF1IB05	vor	BÓKF1IB05
+BÓK 213	BÓKF2TB05	BÓKF1IB05	haust	BÓKF1IB05
+DAN 103	DANS1GR05		haust, vor	Fyrir nemendur með dönskueinkunn C á grunnskólaprófi
+DAN 193	DANS1UN05		haust, vor	Fyrir nemendur með dönskueinkunn D á grunnskólaprófi.
+DAN 202	DANS1GR03		haust, vor	DAN 102
+DAN 203	DANS2RM05		haust, vor	DANS1GR05 eða einkunn A eða B á grunnskólaprófi
+DAN 212	DANS2RM03		haust, vor	DAN 202
+DAN 303	DANS2AU05	DANS2RM05	vor	DANS2RM05
+DAN 313	DANS2KV05	DANS2RM05	haust	DANS2RM05
+DAN 323	DANS2TM05	DANS2RM05	vor	DANS2RM05
+DAUH2SÖ05	DAUH2SÖ05	SÓTS2HR05	breytilegt	SÓTS2HR05
+EÐL 103	EÐLI2GR05		haust, vor	RAUN1JE05 og æskilegt er að nemandi hafi lokið STÆR2HV05
+EÐL 203	EÐLI2AV05	EÐLI1GR05*STÆR2HV05	haust	EÐLI1GR05 og STÆR2HV05
+EÐL 303	EÐLI3BR05	EÐLI1GR05*STÆR2HV05	vor	EÐLI1GR05 og STÆR2HV05
+EFN 103	EFNA2AM05	RAUN1LE05	haust, vor	RAUN1LE05
+EFN 203	EFNA2GE05	EFNA2AM05	haust, vor	EFNA2AM05
+EFN 303	EFNA3RS05	EFNA2GE05	haust	EFNA2GE05
+EFN 313	EFNA3LR05	EFNA2AM05	vor	EFNA2AM05
+EFN 413	EFNA3LE05		haust	
+ENS 103	ENSK1GR05		haust	Fyrir nemendur með enskueinkunn C á grunnskólaprófi.
+ENS 193	ENSK1UN05		Haust, vor	Fyrir nemendur með enskueinkunn D á grunnskólaprófi.
+ENS 203	ENSK2LO05		haust, vor	ENSK1GR05 eða grunnskólaeinkunn A eða B
+ENS 212	ENSK2LO03		haust, vor	ENS 202
+ENS 303	ENSK2OB05	ENSK2LO05	haust, vor	ENSK2LO05
+ENS 373	ENSK2VE05	ENSK2OB05	vor	ENSK2OB05
+ENS 403	ENSK3SA05	ENSK2OB05	haust, vor	ENSK2OB05
+ENS 473	ENSK2EH05		haust, vor	5 feiningar á 2. þrepi
+ENS 503	ENSK3RO05	ENSK3SA05	haust, vor	ENSK3SA05
+ENS 523	ENLÆ3LÓ05	ENSK3SA05	einungis í fjarnámi	ENSK3SA05
+ENS 603	ENSK3BM05	ENSK3RO05	vor	ENSK3RO05
+ENS 622	ENLÆ3ÞÆ04	ENLÆ3LÓ05	einungis í fjarnámi	ENLÆ3LÓ05
+ENS 703	ENSK3RI05	ENSK3RO05/ENSK3BM05	haust	ENSK3RO05 eða ENSK3BM05
+ENS 803	ENSK3KV05		vor	ENSK3SA05 (8 og yfir í einkunn), annars ENSK3RO05 eða ENSK3BM05
+ENSK3ME05	ENSK3ME05		haust	Jarðfræði á 1. þrepi og 5 feiningar í ensku á 3 þrepi.
+FAL 101	LATÍ1FL02		vor	
+FAL 102	FALÆ3OB04		vor	
+FAL 201	FALÆ3HU02	FALÆ3OB04	haust	FALÆ3OB04
+FEM 103	FEMP2FH05		vor	
+FEM 201	FEMA2ST02		haust, vor	
+FÉL 103	FÉLV1IF05		haust, vor	
+FÉL 203	FÉLA2KE05	FÉLV1IF05	haust, vor	FÉLV1IF05
+FÉL 303	FÉLA3ST05	FÉLA2KE05	haust, vor	FÉLA2KE05
+FÉL 313	FÉLA3ÞR05	FÉLA2KE05	haust, vor	FÉLA2KE05
+FÉL 403	FÉLA3AÐ05		vor	FÉLA3ST05 eða FÉLA3ÞR05 (það má taka áfangann samtímis öðrum þessara áfanga)
+FHT 101	FHTA2GÞ04		haust	
+FHTA3FR05	FHTA3FR05		vor	
+FJÖ 103	FJÖL1FS05		haust, vor	
+FLL 103	FÉLY1LL05		haust	
+FOS 102	FOSA2FO04		haust	
+FOSA3SA04	FOSA3SA04		vor	
+FRA 103	FRAN1AG05		haust, vor	
+FRA 203	FRAN1AF05	FRAN1AG05	haust, vor	FRAN1AG05
+FRA 303	FRAN1AU05	FRAN1AF05	haust, vor	FRAN1AF05
+FRA 403	FRAN2BG05	FRAN1AU05	haust, vor	FRAN1AU05
+FRA 503	FRAN2BM05	FRAN1AU05	haust	FRAN1AU05
+FRA 513	FRAN2ME05	FRAN1AU05	vor	FRAN1AU05
+GST 102	GÆST2VE04		haust	
+HAG 103	HAGF2AR05		vor	STÆR1GR05 eða stærðfræðieinkunn A eða B á grunnskólaprófi.
+HAG 113	HAGF2AÞ05		haust, vor	STÆR1GR05 eða stærðfræðieinkunn A eða B á grunnskólaprófi.
+HAG 203	HAGF3FR05	HAGF2AR05	haust	HAGF2AR05
+HAG 213	HAGF3FÞ05	HAG F2AÞ05	vor	HAG F2AÞ05
+HÁT 103	VIBS2KU03		haust	
+HÁT 201	VIBS2KF02		vor	
+HBF 103	HBFR1HH05		haust, vor	
+HJÚ 103	HJÚK1AG05		haust	Tvær annir í framhaldsskóla
+HJÚ 203	HJÚK3ÖH05	HJÚK2HM05*HJÚK2TV05	haust	HJÚK2HM05 og HJÚK2TV05
+HJÚ 303	HJÚK2HM05	HJÚK1AG05*HJVG1VG05	vor	HJÚK1AG05 og HJVG1VG05
+HJÚ 403	HJÚK2TV05	HJÚK1AG05*HJVG1VG05	vor	HJÚK1AG05 og HJVG1VG05
+HJÚ 503	HJÚK3FG05	HJÚK2HM05*HJÚK2TV05	haust	HJÚK2HM05 og HJÚK2TV05
+HJÚK3LO03	HJÚK3LO03		haust, vor	HJÚK3FG05 og HJÚK3ÖH05 (má taka samhliða)
+HJV 103	HJVG1VG05		haust	HJÚK1AG05 (má taka samhliða)
+HLSE1NV03	HLSE1NV03		vor	
+HNU 104	HEIN3HN05	KLNU3NT07	vor	KLNU3NT07
+HOS 103	HOSG2SS05		haust	
+HOS 202	HOSG2TT04		vor	
+HOS 302	HOSG2ÞS04		Haust	
+HSP 103	HEIM2IH05	FÉLV1IF05	haust, vor	FÉLV1IF05
+ILM 103	ILMO2KO05		haust	
+INU 103	INNU2GR05		haust	
+ÍNT 103	ÍÞNT3ÍT05	KLNU3NT07	vor	KLNU3NT07
+ÍSA 103	ÍSAN1GR05		haust	Tvö ár í íslenskum grunnskóla eða viðurkennt íslenskunám.
+ÍSA 203	ÍSAN2GM05	ÍSAN1GR05	vor	ÍSAN1GR05
+ÍSA 303	ÍSAN3BÓ05	ÍSAN2GM05	haust	ÍSAN2GM05
+ÍSA 403	ÍSAN2BS05	ÍSAN3BÓ05	vor	ÍSAN3BÓ05
+ÍSA 503	ÍSAN3NB05	ÍSANBS05	haust	ÍSANBS05
+ÍSL 103	ÍSLE1GR05		haust	Fyrir nemendur með íslenskueinkunn C á grunnskólaprófi
+ÍSL 193	ÍSLE1UN05		haust	Fyrir nemendur með íslenskueinkunn C á grunnskólaprófi.
+ÍSL 203	ÍSLE2GM05		haust, vor	ÍSLE1GR05 eða íslenskueinkunn A eða B á grunnskólaprófi.
+ÍSL 212	ÍSLE2GM03		haust, vor	ÍSL 202
+ÍSL 303	ÍSLE3BÓ05	ÍSLE2GM05	haust, vor	ÍSLE2GM05
+ÍSL 403	ÍSLE2BS05		haust, vor	5 feiningar í íslensku á 2. þrepi
+ÍSL 503	ÍSLE3NB05		haust, vor	10 feiningar í íslensku á 2. þrepi
+ÍSL 633	ÍSLE3BU05		haust	5 feiningar í íslensku á 3. þrepi
+ÍSL 873	ÍSLE3LG05		haust, vor	5 feiningar í íslensku á 3. þrepi
+ÍSLE2HM05	ÍSLE2HM05		vor	ÍSLE1GR05 eða íslenskueinkunn A eða B á grunnskólaprófi.
+ÍSLE2MR05	ÍSLE2MR05 		haust	ÍSLE1GR05 eða íslenskueinkunn A eða B á grunnskólaprófi.
+ÍST 193	ÍSTA1AG05		haust, vor	
+ÍVN 102	KINE3KP04		vor	
+ÍÞG 112	ÍÞRG1KN02		haust, vor	
+ÍÞNT2KY03	ÍÞNT2KY03	LÍOL2SS05	haust	LÍOL2SS05
+ÍÞR 101	ÍÞRÓ1AA01 ÍÞRÓ1AB01		haust, vor	
+ÍÞR 102	ÍÞRÓ1GH03		haust, vor	
+ÍÞR 111	ÍÞRÓ1LS01		haust, vor	
+ÍÞR 121	ÍÞRÓ1LS01		haust, vor	
+ÍÞR 131	ÍÞRÓ1HJ01 		haust, vor	
+ÍÞR 141	ÍÞRÓ1FJ01		haust, vor	
+ÍÞRG2BL03	ÍÞRG2BL03	ÍÞRÓ1GH03	breytilegt	ÍÞRÓ1GH03
+ÍÞRG2HA03	ÍÞRG2HA03	ÍÞRÓ1GH03	vor	ÍÞRÓ1GH03
+ÍÞRG2KN03	ÍÞRG2KN03	ÍÞRÓ1GH03	haust	ÍÞRÓ1GH03
+ÍÞRG2KÖ03	ÍÞRG2KÖ03	ÍÞRÓ1GH03	haust	ÍÞRÓ1GH03
+ÍÞRG2LÍ03	ÍÞRG2LÍ03	ÍÞRÓ1GH03	vor	ÍÞRÓ1GH03
+ÍÞRG2OP03	ÍÞRG2OP03	ÍÞRÓ1GH03	breytilegt	ÍÞRÓ1GH03
+JAR 103	JARÐ2JÍ05	RAUN1JE05	haust	RAUN1JE05
+JAR 113	JARÐ2SF05	RAUN1JE05	vor	RAUN1JE05
+JAR 203	JARÐ2JS05	JARÐ2JÍ05	vor	JARÐ2JÍ05
+JÓG 101	JÓGA1HR02		haust, vor	
+KENN3KK04	KENN3KK04		óreglulega	
+KLN 104	KLNU3NT07	LÍOL2SS05*LÍOL2IL05*VÖFR2VÖ06	haust	LÍOL2SS05, LÍOL2IL05, VÖFR2VÖ06
+KYN 103	KYNJ1KY05		vor	
+LAN 103	LAND2AU05		haust, vor	
+LEI 103	LEIK1GR05		haust	
+LEIS1SL05	LEIS1SL05				
+LHF 103	LYHR3MÖ05		haust	Æskilegir undanfarar: LÍOL2IL05 og SJÚK2GH05
+LHF 203	LYHR3KS05		haust	Æskilegir undanfarar: LÍOL2IL05 og SJÚK2GH05
+LHF 303	LYHR3TH05	LÍOL2IL05*SJÚK2GH05	vor	LÍOL2IL05 OG SJÚK2GH05
+LHF 403	LYHR3HK05	LÍOL2IL05*SJÚK2GH05	vor	LÍOL2IL05 OG SJÚK2GH05
+LIM 103	LIME2MM05		vor	
+LIM 113	LIME2LS05		haust	
+LÍB 101	LÍBE1HB01		haust, vor	
+LÍF 103	LÍFF2LE05	RAUN1LE05	haust, vor	RAUN1LE05
+LÍF 113	LÍFF2VF05	LÍFF2LE05	haust	LÍFF2LE05
+LÍF 203	LÍFF3EF05	LÍFF2LE05	vor	LÍFF2LE05
+LÍF 213	LÍFF3ÖR05	LÍFF2LE05	haust	LÍFF2LE05
+LÍK 101	ÍÞRÓ1LÍ01		haust, vor	
+LJÓ 203	LJÓS2SM05	.	vor	.
+LKN 102	LÍFS1ÉG03		haust	
+LKN 201	LÍFS1BS02		vor	
+LLÖ 103	LYLÖ1LR05		vor	
+LOK 103	LORI3HH05		haust, vor	Áfanginn skal tekinn á síðasta námsári.
+LOK 113	LOKA2FV03		haust, vor	Áfangi ætlaður nemendum á stúdentsprófsbr. síðustu önn
+LOL 103	LÍOL2SS05		haust, vor	Æskilegur undanfari: RAUN1LE05
+LOL 202	LÍOL3TT04		vor	LÍOL2SS05 (má taka samhliða)
+LOL 203	LÍOL2IL05	LÍOL2SS05	haust, vor	LÍOL2SS05
+LSL 103	LAUS2LR05		vor	
+LYF 103	LYFJ2LS05		haust	Æskilegir undanfarar LÍOL2IL05 og SJÚK2GH05
+LYF 111	LYFJ2TL02		haust	
+LYF 112	LYFR2SF04		vor	
+LYFR2LR04	LYFR2LR04		haust	
+LYG 103	LYGE3LÚ05		vor	
+LYG 204	LYGE3VL07	LYGE3LÚ05	haust	LYGE3LÚ05
+LYH 103	LYHV2FD05		vor	
+LYH 203	LYHV2LL05	LYHV2FD05	haust	LYHV2FD05
+LÆR 106	LÆKN2LY09		fjarnám	
+LÆR 206	LÆKN3HT09	LÆKN2LY09	fjarnám	LÆKN2LY09
+MAN 103	MARÉ2MR05		haust	
+MGR 102	MAGR2MG05		haust	
+MOF 103	FORM2MF05		haust, vor	
+MYL 103	MYNL1MG05		haust, vor	
+MYL 203	MYNL2TA05		haust, vor	5 feiningar í myndlist
+MYL 303	MYNL2LI05		haust, vor	5 feiningar í myndlist
+MYNL3LS05	MYNL3LS05			
+MYS 103	SAGA2LS05		haust	
+NÁM 193	LESA1DY05		haust, vor	Stuðningsáfangi fyrir lesblinda nemendur
+NÁT 103	RAUN1LÍ05 RAUN1LE05		haust, vor	
+NÁT 113	RAUN1JA05 RAUN1JE05		haust, vor	
+NÁT 123	RAUN1EE05		haust, vor	
+NFH 103	NÁTL2NN05	NÆRI1NN05	vor	NÆRI1NN05
+NFH 203	FÆBÓ2FH05	NÆRI1NN05	vor	NÆRI1NN05
+NÝS 103	NÝSK2HH05		haust	
+NÆR 103	NÆRI1NN05		haust, vor	
+OMH 103	ORKM3OM05	SVNU3SN05	vor	SVNU3SN05
+RAUN1JE05	RAUN1JE05 		haust, vor	(Grunnáfangi i jarðfræði og eðlisfræði)
+RAUN1LE05	RAUN1LE05 		haust, vor	(Grunnáfangi í efnafræði og líffræði)
+RÁÐ 101	RÁÐG1RG01		haust, vor	
+RIT 123	RITV1NÁ05		eingöngu í fjarnámi	
+RTG 102	RTGF2GR03		haust	
+RTGF3ÞJ03	RTGF3ÞJ03		vor	
+SAG 103	SAGA1MF05		haust, vor	
+SAG 203	SAGA2NS05	SAGA1MF05	haust, vor	SAGA1MF05
+SAG 303	SAGA3MM05	SAGA2NS05	haust, vor	SAGA2NS05
+SAG 313	SAGA3MA05	SAGA2NS05	vor	SAGA2NS05
+SAG 403	SAGA3KM05	SAGA2NS05	haust	SAGA2NS05
+SAG 413	SAGA2TS05	SAGA2NS05	vor	SAGA2NS05
+SAS 103	SASK2SS05		haust, vor	Æskilegur undanfari SIÐF2SF05
+SÁL 103	SÁLF2AA05		haust, vor	
+SÁL 123	SÁLF1SD05		haust	
+SÁL 203	SÁLF3ÞS05	SÁLF2AA05	haust, vor	SÁLF2AA05
+SÁL 213	SÁLF3LÍ05	SÁLF2AA05	vor	SÁLF2AA05
+SÁL 303	SÁLF3AB05	SÁLF2AA05	haust	SÁLF2AA05
+SÁL 313	SÁLF2FÖ05	SÁLF2AA05	vor	SÁLF2AA05
+SHR 203	VIHB2SJ10		haust, vor	
+SIÐ 102	SIÐF2SF05		haust, vor	
+SJÚ 103	SJÚK2MS05	LÍOL2SS05*HBFR1HH05	haust, vor	LÍOL2SS05 og HBFR1HH05
+SJÚ 203	SJÚK2GH05		haust, vor	SJÚK2MS05 (má taka samhliða)
+SKE 101	SKER3HA01		vor	
+SKL 101	SKJA1SV02		vor	
+SKR 102	SKRÁ2TT05		haust	Æskilegt er að nemendur hafi lokið HBFR1HH05
+SKY 101	SKYN2EÁ01		haust, vor	
+SOG 103	SOGN3SO05		haust	
+SÓT 103	SÓTT2SÓ04		haust	
+SÓT 202	SÓTT3DA04		vor	
+SÓTS1HR05	SÓTS1HR05		haust	
+SPU 103	SPUR1SP03			
+SPÆ 103	SPÆN1AG05		haust, vor	
+SPÆ 203	SPÆN1AF05	SPÆN1AG05	haust, vor	SPÆN1AG05
+SPÆ 303	SPÆN1AU05	SPÆN1AF05	haust, vor	SPÆN1AF05
+SPÆ 403	SPÆN2BG05	SPÆN1AU05	haust, vor	SPÆN1AU05
+SPÆ 503	SPÆN2BL05	SPÆN2BG05	vor	SPÆN2BG05
+SPÆ 513	SPÆN2ME05	SPÆN2BG05	haust	SPÆN2BG05
+SRN 102	STRN2SR04	BÓKF1IB05	vor	BÓKF1IB05
+STH 103	STHE1HÞ05		vor	
+STÍH4GV04	STÍH4GV04		breytilegt	
+STÞ 208	STAF3ÞJ27		haust, vor	Verklegir og bóklegir hjúkrunaráfangar
+STÆ 103	STÆR1GR05		haust, vor	
+STÆ 193	STÆR1UN05		haust, vor	Fyrir nemendur með stærðfræðieinkunn D á grunnskólaprófi
+STÆ 203	STÆR2AM05		haust, vor	STÆR1GR05 eða stærðfræðieinkunn A eða B á grunnskólaprófi.
+STÆ 303	STÆR2HV05	STÆR2AM05	haust, vor	STÆR2AM05
+STÆ 403	STÆR3FD05	STÆR2HV05	haust, vor	STÆR2HV05
+STÆ 503	STÆR3RH05	STÆR3FD05	haust, vor	STÆR3FD05
+STÆ 603	STÆR3TD05	STÆR3FD05	vor	STÆR3FD05
+STÆR2HS05	STÆR2HS05		haust, vor	STÆR1GR05 eða stærðfræðieinkunn A eða B á grunnskólaprófi.
+SVN 104	SVNU3SN05		haust	
+SÝK 103	SÝKL2SS05		haust, vor	
+SÞJ 016	STÞL3FE27		haust, vor	
+SÞJ 102	MASK2SV03		haust, vor	
+SÞJ 204	MASK2SV07		haust, vor	
+SÞN 102	MAVE3SÞ02		vor	
+SÞN 203	MAVE3SÞ03		haust	
+SÞN 315	STÞN3SÞ18		haust, vor	
+TAN 101	TANL3TU02		haust	
+TAR 101	TARE3TT02		haust	
+TAS 101	STKY3AS04		vor	
+TLE 103	TÖLE2SE05		vor	
+TMS 103	TAMS3TT05		haust	Æskilegt er að nemendur hafi lokið HBFR1HH05 og NÆRI1NN05
+TMS 203	TAMS3SA05	TAMS3TT05	vor	TAMS3TT05
+TUM 103	TUPP2AT05	LYLÖ1LR05*UPPL1GT05	vor	LYLÖ1LR05, UPPL1GT05
+TÖH 113	TÖHÖ2LH05		haust, vor	
+TÖL 103	TÖLV1FG05		haust	
+TÖL 123	UPLÆ2EP05		eingöngu kennt í fjarnámi	Nemendur þurfa að hafa þekkingu í almennri tölvunotkun
+TÖL 222	UPLÆ2UM04	UPLÆ2EP05	eingöngu kennt í fjarnámi	UPLÆ2EP05
+TÖLE3LG05	TÖLE3LG05	TÖLE2LH05	haust	TÖLE2LH05
+UMH 103	UMHV1SJ05		haust, vor	
+UMR 112	UMRÁ1UR03		haust, vor	
+UPP 103	SÁLF2UM05		haust, vor	Æskilegt að nemendur hafi tekið 5 feiningar í sálfræði á 2. þrepi
+UTH 103	UPPÆ1SR05		haust, vor	
+UTN 103	UPPL1GT05		eingöngu kennt í fjarnámi	
+VAP 014	VAPÓ3LT24	ALME1LH05*AFTÆ2LS07*LAUS2LR05*LYLÖ1LR05*TUPP2AT05	haust, vor	ALME1LH05, AFTÆ2LS07, LAUS2LR05, LYLÖ1LR05, TUPP2AT05
+VEH 203	VIHB2HG10		haust, vor	
+VFF 103	VÖFR2VÖ06		vor	LÍOL2SS05 (hægt að taka samhliða)
+VIÐ 103	STJR3IS05		haust	
+VIÐ 113	MARK2AM05		vor	
+VIÐ 123	FJMÁ2FF05		haust	STÆR1GR05 eða stærðfræðieinkunn A eða B á grunnskólaprófi.
+VIÐ 133	NÝSK3SF05		vor	
+VIÐ 143	LÖGF2LÖ05		haust, vor	
+VIN 105	VINN3ÖH08	VINN2LS08*HJÚK3ÖH05	vor	VINN2LS08 og HJÚK3ÖH05
+VIN 205	VINN2LS08	HJÚK2HM05*HJÚK2TV05	vor	HJÚK2HM05 og HJÚK2TV05
+VIN 305	VINN3GH08	VINN2LS08*HJÚK3FG05	vor	VINN2LS08 og HJÚK3FG05
+VLT 102	VEFL3VT05	VÖFR2VÖ06*KLNU3NT07	vor	VÖFR2VÖ06, KLNU3NT07
+VVM 101	VIMA1RS01		haust	
+ÞRÍ 103	MYNL2ÞV05		vor	
+ÞRÍ 113	MYNL3ÞF05		haust	
+ÞÝS 103	ÞÝSK1AG05		haust, vor	
+ÞÝS 203	ÞÝSK1AF05	ÞÝSK1AG05	haust, vor	ÞÝSK1AG05
+ÞÝS 303	ÞÝSK1AU05	ÞÝSK1AF05	haust, vor	ÞÝSK1AF05
+ÞÝS 403	ÞÝSK2BU05	ÞÝSK1AU05	haust, vor	ÞÝSK1AU05
+ÞÝS 503	ÞÝSK2BM05	ÞÝSK1AU05	vor	ÞÝSK1AU05
+ÞÝS 513	ÞÝSK2ME05	ÞÝSK1AU05	haust	ÞÝSK1AU05
+ÖLHJ4HÞ05	ÖLHJ4HÞ05		breytilegt	
