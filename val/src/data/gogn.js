@@ -113,7 +113,8 @@ INNU2GR05:{heiti: "INNU2GR05", feiningar: 5, threp: 2, gamaltHeiti: "INU 103", u
 KINE3KP04:{heiti: "KINE3KP04", feiningar: 4, threp: 3, gamaltHeiti: "ÍVN 102", undanfarar: "null", kennt: "vor",athugasemdir: "null"},
 ÍÞRG1KN02:{heiti: "ÍÞRG1KN02", feiningar: 2, threp: 1, gamaltHeiti: "ÍÞG 112", undanfarar: "null", kennt: "haust, vor",athugasemdir: "null"},
 ÍÞNT2KY03:{heiti: "ÍÞNT2KY03", feiningar: 3, threp: 2, gamaltHeiti: "ÍÞNT2KY03", undanfarar: "LÍOL2SS05", kennt: "haust",athugasemdir: "LÍOL2SS05"},
-ÍÞRÓ1AA01 ÍÞRÓ1AB01:{heiti: "ÍÞRÓ1AA01 ÍÞRÓ1AB01", feiningar: 1, threp: 1, gamaltHeiti: "ÍÞR 101", undanfarar: "null", kennt: "haust, vor",athugasemdir: "null"},
+ÍÞRÓ1AB01:{heiti: "ÍÞRÓ1AB01", feiningar: 1, threp: 1, gamaltHeiti: "ÍÞR 101", undanfarar: "null", kennt: "haust, vor",athugasemdir: "null"},
+ÍÞRÓ1AA01 :{heiti: "ÍÞRÓ1AA01 ", feiningar: 1, threp: 1, gamaltHeiti: "ÍÞR 101", undanfarar: "null", kennt: "haust, vor",athugasemdir: "null"},
 ÍÞRÓ1GH03:{heiti: "ÍÞRÓ1GH03", feiningar: 3, threp: 1, gamaltHeiti: "ÍÞR 102", undanfarar: "null", kennt: "haust, vor",athugasemdir: "null"},
 ÍÞRÓ1LS01:{heiti: "ÍÞRÓ1LS01", feiningar: 1, threp: 1, gamaltHeiti: "ÍÞR 111", undanfarar: "null", kennt: "haust, vor",athugasemdir: "null"},
 ÍÞRÓ1LS01:{heiti: "ÍÞRÓ1LS01", feiningar: 1, threp: 1, gamaltHeiti: "ÍÞR 121", undanfarar: "null", kennt: "haust, vor",athugasemdir: "null"},
@@ -176,8 +177,10 @@ MYNL2LI05:{heiti: "MYNL2LI05", feiningar: 5, threp: 2, gamaltHeiti: "MYL 303", u
 MYNL3LS05:{heiti: "MYNL3LS05", feiningar: 5, threp: 3, gamaltHeiti: "MYNL3LS05", undanfarar: "null", kennt: "",athugasemdir: "null"},
 SAGA2LS05:{heiti: "SAGA2LS05", feiningar: 5, threp: 2, gamaltHeiti: "MYS 103", undanfarar: "null", kennt: "haust",athugasemdir: "null"},
 LESA1DY05:{heiti: "LESA1DY05", feiningar: 5, threp: 1, gamaltHeiti: "NÁM 193", undanfarar: "null", kennt: "haust, vor",athugasemdir: "Stuðningsáfangi fyrir lesblinda nemendur"},
-RAUN1LÍ05 RAUN1LE05:{heiti: "RAUN1LÍ05 RAUN1LE05", feiningar: 5, threp: 1, gamaltHeiti: "NÁT 103", undanfarar: "null", kennt: "haust, vor",athugasemdir: "null"},
-RAUN1JA05 RAUN1JE05:{heiti: "RAUN1JA05 RAUN1JE05", feiningar: 5, threp: 1, gamaltHeiti: "NÁT 113", undanfarar: "null", kennt: "haust, vor",athugasemdir: "null"},
+RAUN1LE05:{heiti: "RAUN1LE05", feiningar: 5, threp: 1, gamaltHeiti: "NÁT 103", undanfarar: "null", kennt: "haust, vor",athugasemdir: "null"},
+RAUN1LÍ05:{heiti: "RAUN1LÍ05", feiningar: 5, threp: 1, gamaltHeiti: "NÁT 103", undanfarar: "null", kennt: "haust, vor",athugasemdir: "null"},
+RAUN1JA05:{heiti: "RAUN1JA05", feiningar: 5, threp: 1, gamaltHeiti: "NÁT 113", undanfarar: "null", kennt: "haust, vor",athugasemdir: "null"},
+RAUN1JE05:{heiti: "RAUN1JE05", feiningar: 5, threp: 1, gamaltHeiti: "NÁT 113", undanfarar: "null", kennt: "haust, vor",athugasemdir: "null"},
 RAUN1EE05:{heiti: "RAUN1EE05", feiningar: 5, threp: 1, gamaltHeiti: "NÁT 123", undanfarar: "null", kennt: "haust, vor",athugasemdir: "null"},
 NÁTL2NN05:{heiti: "NÁTL2NN05", feiningar: 5, threp: 2, gamaltHeiti: "NFH 103", undanfarar: "NÆRI1NN05", kennt: "vor",athugasemdir: "NÆRI1NN05"},
 FÆBÓ2FH05:{heiti: "FÆBÓ2FH05", feiningar: 5, threp: 2, gamaltHeiti: "NFH 203", undanfarar: "NÆRI1NN05", kennt: "vor",athugasemdir: "NÆRI1NN05"},
@@ -282,3 +285,4 @@ MYNL3ÞF05:{heiti: "MYNL3ÞF05", feiningar: 5, threp: 3, gamaltHeiti: "ÞRÍ 113
 ÞÝSK2ME05:{heiti: "ÞÝSK2ME05", feiningar: 5, threp: 2, gamaltHeiti: "ÞÝS 513", undanfarar: "ÞÝSK1AU05", kennt: "haust",athugasemdir: "ÞÝSK1AU05"},
 ÖLHJ4HÞ05:{heiti: "ÖLHJ4HÞ05", feiningar: 5, threp: 4, gamaltHeiti: "ÖLHJ4HÞ05", undanfarar: "null", kennt: "breytilegt",athugasemdir: "null"},
 };
+export default afangar;

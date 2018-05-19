@@ -7,24 +7,14 @@ import FormGroup from '@material-ui/core/FormGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import Checkbox from '@material-ui/core/Checkbox';
-//import boknamskjarni from '../data/boknamskjarni.js';
-
+import afangar from '../data/gogn.js';
+import HelpIcon from '@material-ui/icons/Help';
+import IconButton from '@material-ui/core/IconButton';
+import Tooltip from '@material-ui/core/Tooltip';
 
 const styles = {
   
 };
-
-const boknamskjarni = {
-  Danska: ['DANS2RM05'],
-  Enska: ['ENSK2LO05','ENSK3RO05','ENSK2OB05','ENSK3SA05'],
-  Félagsvísindi: ['FÉLV1IF05'],
-  Íslenska: ['ÍSLE2BS05', 'ÍSLE3BÓ05', 'ÍSLE2GM05','ÍSLE3NB05'],
-  Íþróttir: ['ÍÞRÓ1AA01','ÍÞRÓ1AB01','ÍÞRÓ1AC01','ÍÞRÓ1AD01','ÍÞRÓ1AE01','ÍÞRÓ1AF01'],
-  Lífsleikni: ['LÍFS1BS02', 'LÍFS1ÉG03'],
-  Raunvísindi: ['RAUN1JE05','RAUN1LE05'],
-  Saga: ['SAGA1MF05','SAGA2NS05'],
-  Stærðfræði: ['STÆR2HS05']
-}
 
 
 class Brautarkjarni extends React.Component {
@@ -38,11 +28,13 @@ class Brautarkjarni extends React.Component {
     this.setState({ [name]: event.target.checked });
   };
   render() {
+  console.log(afangar);
+  const {boknamskjarni, heiti} = this.props;
   return (
     
       <div style={{padding: '5%'}}>
-        <div style={{width: '20%', borderStyle: 'solid', borderWidth: '2px'}}>
-        <h4>Bóknámskjarni</h4>
+        <div style={{width: '100%', borderStyle: 'solid', borderWidth: '2px', padding: '2%'}}>
+        <h4>{heiti}</h4>
     
         <FormControl component="fieldset">
           {
@@ -52,17 +44,27 @@ class Brautarkjarni extends React.Component {
               <FormGroup>
                 {
                 boknamskjarni[flokkur].map(afangi => 
-                <FormControlLabel
-                  key={`${afangi}`}
-                  control={
-                    <Checkbox
-                      checked={this.state[afangi]}
-                      onChange={this.handleChange(`${afangi}`)}
-                      value='gilad'
-                    />
+                <div>
+                  <FormControlLabel
+                    key={`${afangi}`}
+                    control={
+                      <Checkbox
+                        checked={this.state[afangi]}
+                        onChange={this.handleChange(`${afangi}`)}
+                        value={`${afangi}`}
+                        disabled={false}
+                      />
+                    }
+                    label={`${afangi} (${afangar[afangi]?afangar[afangi].gamaltHeiti:''})`}
+                  />
+                  {(afangar[afangi] && afangar[afangi].athugasemdir !== 'null') &&
+                  <Tooltip id="tooltip-icon" title={`Undanfarar: ${afangar[afangi].athugasemdir}`}>
+                    <IconButton aria-label="Help">
+                      <HelpIcon />
+                    </IconButton>
+                  </Tooltip>
                   }
-                  label={`${afangi}`}
-                />
+                </div>
                 )
                 }
               </FormGroup>
@@ -77,4 +79,4 @@ class Brautarkjarni extends React.Component {
 }
 
 
-export default withStyles(styles)(Brautarkjarni);
+export default Brautarkjarni

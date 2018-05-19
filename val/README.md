@@ -16,3 +16,4 @@ This projected is implemented using Facebook [Create React App](https://reactjs.
 Node packages installed:
 
 1. material-ui: npm install @material-ui/core
+2. npm install --save @material-ui/icons

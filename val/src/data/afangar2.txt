@@ -113,7 +113,8 @@ INU 103	INNU2GR05		haust
 ÍVN 102	KINE3KP04		vor	
 ÍÞG 112	ÍÞRG1KN02		haust, vor	
 ÍÞNT2KY03	ÍÞNT2KY03	LÍOL2SS05	haust	LÍOL2SS05
-ÍÞR 101	ÍÞRÓ1AA01 ÍÞRÓ1AB01		haust, vor	
+ÍÞR 101	ÍÞRÓ1AB01		haust, vor	
+ÍÞR 101	ÍÞRÓ1AA01 		haust, vor	
 ÍÞR 102	ÍÞRÓ1GH03		haust, vor	
 ÍÞR 111	ÍÞRÓ1LS01		haust, vor	
 ÍÞR 121	ÍÞRÓ1LS01		haust, vor	
@@ -176,8 +177,10 @@ MYL 303	MYNL2LI05		haust, vor	5 feiningar í myndlist
 MYNL3LS05	MYNL3LS05			
 MYS 103	SAGA2LS05		haust	
 NÁM 193	LESA1DY05		haust, vor	Stuðningsáfangi fyrir lesblinda nemendur
-NÁT 103	RAUN1LÍ05 RAUN1LE05		haust, vor	
-NÁT 113	RAUN1JA05 RAUN1JE05		haust, vor	
+NÁT 103	RAUN1LE05		haust, vor	
+NÁT 103	RAUN1LÍ05		haust, vor	
+NÁT 113	RAUN1JA05		haust, vor	
+NÁT 113	RAUN1JE05		haust, vor	
 NÁT 123	RAUN1EE05		haust, vor	
 NFH 103	NÁTL2NN05	NÆRI1NN05	vor	NÆRI1NN05
 NFH 203	FÆBÓ2FH05	NÆRI1NN05	vor	NÆRI1NN05
