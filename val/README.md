@@ -17,3 +17,5 @@ Node packages installed:
 
 1. material-ui: npm install @material-ui/core
 2. npm install --save @material-ui/icons
+3. react-redux: npm install --save react-redux
+4. redux: npm install --save redux

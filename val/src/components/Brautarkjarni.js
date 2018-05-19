@@ -11,6 +11,8 @@ import afangar from '../data/gogn.js';
 import HelpIcon from '@material-ui/icons/Help';
 import IconButton from '@material-ui/core/IconButton';
 import Tooltip from '@material-ui/core/Tooltip';
+import {connect} from 'react-redux';
+import {addAfangi,deleteAfangi} from '../actions'; 
 
 const styles = {
   
@@ -18,18 +20,25 @@ const styles = {
 
 
 class Brautarkjarni extends React.Component {
-  state = {
-    gilad: true,
-    jason: false,
-    antoine: true,
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      afangar: props.afangar
+    };
+  }
+  
 
   handleChange = name => event => {
+    const {dispatch} = this.props;
     this.setState({ [name]: event.target.checked });
+    if (event.target.checked )
+      dispatch(addAfangi({heiti: name, valinn: true, feiningar: afangar[name].feiningar, threp: afangar[name].threp}))
+    else
+      dispatch(deleteAfangi(name))
   };
   render() {
-  console.log(afangar);
   const {boknamskjarni, heiti} = this.props;
+  
   return (
     
       <div style={{padding: '5%'}}>
@@ -44,9 +53,8 @@ class Brautarkjarni extends React.Component {
               <FormGroup>
                 {
                 boknamskjarni[flokkur].map(afangi => 
-                <div>
+                <div key={`${afangi}`}>
                   <FormControlLabel
-                    key={`${afangi}`}
                     control={
                       <Checkbox
                         checked={this.state[afangi]}
@@ -78,5 +86,8 @@ class Brautarkjarni extends React.Component {
   }
 }
 
+const mapStateToProps = (state)=> ({
+    afangar: state.afangar,
+});
 
-export default Brautarkjarni
+export default connect(mapStateToProps)(Brautarkjarni)
