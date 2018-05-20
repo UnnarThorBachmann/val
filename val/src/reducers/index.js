@@ -2,13 +2,14 @@ import {
  
  ADD_AFANGI,
  DELETE_AFANGI,
- CHANGE_BRAUT
+ CHANGE_BRAUT,
+ CHANGE_MAL
 } from '../actions';
 
 
 
 
-export default function reducerinn(state={afangar:{}, braut: 'Félagsfræðibraut'},action) {
+export default function reducerinn(state={afangar:{}, braut: 'Félagsfræðibraut', mal: 'Franska'},action) {
   switch(action.type) {
       case ADD_AFANGI:
        
@@ -33,10 +34,15 @@ export default function reducerinn(state={afangar:{}, braut: 'Félagsfræðibrau
           
         }
       case CHANGE_BRAUT:
-      return {
-        ...state,
-        braut: action.braut
-      }
+        return {
+          ...state,
+          braut: action.braut
+        }
+      case CHANGE_MAL:
+        return {
+          ...state,
+          mal: action.mal
+        }
       default:
         return state;
   }

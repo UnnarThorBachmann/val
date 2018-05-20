@@ -11,16 +11,16 @@ const styles = {
   
 };
 
-class ValAppBar extends React.Component {
+class ValAppBar2 extends React.Component {
   
   render() {
   return (
       <AppBar position="static" style={{height: '60px', paddingTop: '1%', paddingBottom: '1%', paddingLeft: '5%'}}>
         <div style={{display: 'flex',flexDirection: 'row',flexWrap: 'wrap', justifyContent: 'flex-end', paddingLeft: '5%', paddingRight: '5%'}}>
           <div>
-          <Link to="/nidurstodur">
+            <Link to="/">
             <Button variant="outlined" color="secondary">
-              Áfram
+              Aftur
             </Button>
           </Link>
           </div>
@@ -32,4 +32,4 @@ class ValAppBar extends React.Component {
 }
 
 
-export default ValAppBar;
+export default ValAppBar2;

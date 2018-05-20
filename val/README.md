@@ -19,3 +19,4 @@ Node packages installed:
 2. npm install --save @material-ui/icons
 3. react-redux: npm install --save react-redux
 4. redux: npm install --save redux
+5. react-router-dom: npm install --save react-router-dom

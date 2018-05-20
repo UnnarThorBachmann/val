@@ -13,13 +13,12 @@ import IconButton from '@material-ui/core/IconButton';
 import Tooltip from '@material-ui/core/Tooltip';
 import {connect} from 'react-redux';
 import {addAfangi,deleteAfangi} from '../actions'; 
-
 const styles = {
   
 };
 
 
-class Brautarkjarni extends React.Component {
+class Flokkur extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -40,7 +39,6 @@ class Brautarkjarni extends React.Component {
   handleDisable = (name)=> {
     
     if (afangar[name] && afangar[name].undanfarar.indexOf('*') !== -1) {
-      console.log(name);
       for (const a of afangar[name].undanfarar.split('*')) {
         if (!this.state.afangar[a]) {
           return true;
@@ -49,7 +47,6 @@ class Brautarkjarni extends React.Component {
       return false;
     }
     else if (afangar[name] && afangar[name].undanfarar.indexOf('/') !== -1) {
-      console.log(name);
       for (const a of afangar[name].undanfarar.split('/')) {
         if (this.state.afangar[a]) {
           return false;
@@ -72,7 +69,7 @@ class Brautarkjarni extends React.Component {
     this.setState({afangar: nextProps.afangar});
   }
   render() {
-  const {boknamskjarni, heiti} = this.props;
+  const {flokkur,heiti} = this.props;
   return (
     
       <div style={{padding: '5%'}}>
@@ -81,12 +78,12 @@ class Brautarkjarni extends React.Component {
     
         <FormControl component="fieldset">
           {
-            Object.keys(boknamskjarni).map(flokkur=> 
-            <div key={`${flokkur}`}>
-            <FormLabel component="legend">{`${flokkur}`}</FormLabel>
+            Object.keys(flokkur).map(tegund=> 
+            <div key={`${tegund}`}>
+            <FormLabel component="legend">{`${tegund}`}</FormLabel>
               <FormGroup>
                 {
-                boknamskjarni[flokkur].map(afangi => 
+                flokkur[tegund].map(afangi => 
                 <div key={`${afangi}`}>
                   <FormControlLabel
                     control={
@@ -124,4 +121,4 @@ const mapStateToProps = (state)=> ({
     afangar: state.afangar,
 });
 
-export default connect(mapStateToProps)(Brautarkjarni)
+export default connect(mapStateToProps)(Flokkur)

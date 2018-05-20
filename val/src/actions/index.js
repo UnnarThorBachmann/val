@@ -1,6 +1,7 @@
 export const ADD_AFANGI = 'ADD_AFANGI';
 export const DELETE_AFANGI = 'DELETE_AFANGI';
 export const CHANGE_BRAUT = 'ChANGE_BRAUT';
+export const CHANGE_MAL = 'ChANGE_MAL';
 
 
 
@@ -28,3 +29,10 @@ export function changeBraut(braut) {
 
 }
 
+export function changeMal(mal) {
+  return {
+      type: CHANGE_MAL,
+      mal: mal
+    }
+
+}
