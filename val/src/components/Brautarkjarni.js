@@ -23,22 +23,56 @@ class Brautarkjarni extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      afangar: props.afangar
+      afangar: {}
     };
   }
   
 
   handleChange = name => event => {
     const {dispatch} = this.props;
-    this.setState({ [name]: event.target.checked });
+    
     if (event.target.checked )
       dispatch(addAfangi({heiti: name, valinn: true, feiningar: afangar[name].feiningar, threp: afangar[name].threp}))
     else
       dispatch(deleteAfangi(name))
   };
+
+  handleDisable = (name)=> {
+    
+    if (afangar[name] && afangar[name].undanfarar.indexOf('*') !== -1) {
+      console.log(name);
+      for (const a of afangar[name].undanfarar.split('*')) {
+        if (!this.state.afangar[a]) {
+          return true;
+        }
+      } 
+      return false;
+    }
+    else if (afangar[name] && afangar[name].undanfarar.indexOf('/') !== -1) {
+      console.log(name);
+      for (const a of afangar[name].undanfarar.split('/')) {
+        if (this.state.afangar[a]) {
+          return false;
+        }
+      } 
+      return true;
+    }
+    else if (afangar[name] && afangar[name].undanfarar === 'null')
+      return false
+    else if (afangar[name] && afangar[name].undanfarar !== 'null')
+      if (this.state.afangar[afangar[name].undanfarar])
+        return false;
+      else
+        return true;
+    else
+      return true;
+  }
+  
+  componentWillReceiveProps(nextProps) {
+    this.setState({afangar: nextProps.afangar});
+  }
   render() {
   const {boknamskjarni, heiti} = this.props;
-  
   return (
     
       <div style={{padding: '5%'}}>
@@ -57,10 +91,10 @@ class Brautarkjarni extends React.Component {
                   <FormControlLabel
                     control={
                       <Checkbox
-                        checked={this.state[afangi]}
+                        checked={this.state.afangar.valinn}
                         onChange={this.handleChange(`${afangi}`)}
                         value={`${afangi}`}
-                        disabled={false}
+                        disabled={this.handleDisable(`${afangi}`)}
                       />
                     }
                     label={`${afangi} (${afangar[afangi]?afangar[afangi].gamaltHeiti:''})`}
