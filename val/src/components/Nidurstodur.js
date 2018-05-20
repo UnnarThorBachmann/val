@@ -14,6 +14,8 @@ import Tooltip from '@material-ui/core/Tooltip';
 import {connect} from 'react-redux';
 import {addAfangi,deleteAfangi} from '../actions'; 
 import {Brautir, allir} from '../helpers'
+import grunnur from '../data/gogn.js';
+import Radio from '@material-ui/core/Radio';
 
 const styles = {
   
@@ -24,10 +26,16 @@ class Nidurstodur extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      afangar: {}
+      ovaldir: {},
+      onn: 'Haust'
     };
   }
   
+  change = event => {
+    
+    this.setState({onn: event.target.value});
+
+  };
 
   handleChange = name => event => {
     const {dispatch} = this.props;
@@ -69,18 +77,70 @@ class Nidurstodur extends React.Component {
       return true;
   }
   
-  componentWillReceiveProps(nextProps) {
-    this.setState({afangar: nextProps.afangar, braut: nextProps.braut, mal: nextProps.mal});
+  
+  componentWillMount() {
+    const {mal,braut,afangar} =this.props;
+    let tungumal = ['Franska','Spænska','Þýska'];
+    tungumal = tungumal.filter(item=> item !== mal)
+  
+    const brautarsamsetning = Brautir[braut];
+   
+    let brautarsamsetning_alt = Object.keys(brautarsamsetning).reduce(function(acc,curr) {return {...acc, ...brautarsamsetning[curr]}},{});
+
+    for (const t of tungumal) {
+      delete brautarsamsetning_alt[t];
+    }
+    let ovaldir = Object.keys(brautarsamsetning_alt).reduce(function(acc,curr) {return {...acc, [curr]: brautarsamsetning_alt[curr].filter(item=> !afangar[item])}},{});
+    console.log(ovaldir);
+    this.setState({ovaldir: ovaldir})
+    console.log(grunnur);
+    let haust = Object.keys(ovaldir).reduce(function(acc,curr){
+      
+      return {...acc, [curr]: ovaldir[curr].filter(item=> grunnur[item].kennt.indexOf('haust') !==-1)}
+    },{})
+    console.log(haust);
+    let vor = Object.keys(ovaldir).reduce(function(acc,curr){
+      
+      return {...acc, [curr]: ovaldir[curr].filter(item=> grunnur[item].kennt.indexOf('vor') !==-1)}
+    },{})
+    console.log(vor);
+    //console.log('Mál', mal);
+    //console.log('Grunnur',grunnur);
+    
+    //const brautarsamsetning_alt = Object.keys(brautarsamsetning).reduce(function(acc,curr) {return {...acc, ...brautarsamsetning[curr]}},{})
+    //let adrir = {...allir};
+    
+    //adrir = Object.keys(brautarsamsetning_alt).reduce(function(acc,curr) {
+    //  return {...acc, [curr]: allir[curr].filter(item=> brautarsamsetning_alt[curr].indexOf(item) ===-1)};
+    //
+    //},{});
+    //console.log('adrir',adrir);
   }
   render() {
-  const {braut,afangar, mal} = this.props;
-  console.log('braut',braut);
-  console.log('afangar', afangar);
-  console.log('Braut',Brautir[braut]);
-  console.log('Mál', mal);
+  
   return (
     
       <div style={{padding: '5%'}}>
+        <div>
+                <h4>{`Næsta önn (${this.state.onn})`}</h4>
+                <div>
+                  <Radio
+                    checked={this.state.onn=== 'Haust'}
+                    onChange={this.change}
+                    value="Haust"
+                    name="radio-button-demo"
+                    aria-label="Haust"
+                  />
+                  <Radio
+                    checked={this.state.onn === 'Vor'}
+                    onChange={this.change}
+                    value="Vor"
+                    name="radio-button-demo"
+                    aria-label="Vor"
+                  />
+                  
+                </div>
+        </div>
         <h4>Niðurstöður</h4>
         <div style={{width: '100%', borderStyle: 'solid', borderWidth: '2px', padding: '2%'}}>
         
@@ -91,7 +151,6 @@ class Nidurstodur extends React.Component {
     );
   }
 }
-
 const mapStateToProps = (state)=> ({
     afangar: state.afangar,
     braut: state.braut,

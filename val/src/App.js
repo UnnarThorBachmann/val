@@ -24,7 +24,7 @@ import {Brautir, allir} from './helpers'
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {afangar: {}, braut: 'Félagsfræðibraut', mal: 'Franska'}
+    this.state = {afangar: props.afangar, braut: props.braut, mal: props.mal}
   }
  
   
@@ -45,17 +45,21 @@ class App extends Component {
   componentWillReceiveProps(nextProps) {
     this.setState({afangar: nextProps.afangar, braut: nextProps.braut, mal: nextProps.mal});
   }
-
+  componentWillMount() {
+    console.log('her')
+    this.setState({afangar: this.props.afangar, braut: this.props.braut, mal: this.props.mal});
+  }
   render() {
     const {braut,mal} = this.state;
     const brautarsamsetning = Brautir[braut];
     
     const brautarsamsetning_alt = Object.keys(brautarsamsetning).reduce(function(acc,curr) {return {...acc, ...brautarsamsetning[curr]}},{})
-    let allir_alt = {...allir};
+    let adrir = {...allir};
     
-    allir_alt = Object.keys(brautarsamsetning_alt).reduce(function(acc,curr) {
-      return {...acc, [curr]: allir[curr].filter(item=> brautarsamsetning_alt[curr].indexOf(item) ===-1)};
-
+    adrir = Object.keys(brautarsamsetning_alt).reduce(function(acc,curr) {
+      
+        return {...acc, [curr]: allir[curr].filter(item=> brautarsamsetning_alt[curr].indexOf(item) ===-1)};
+      
     },{});
     return (
       <div className="App" >
@@ -136,7 +140,7 @@ class App extends Component {
               }
             </div>
             <div style={{width: "23%"}}> 
-              <Flokkur flokkur={allir_alt} heiti={'Annað'}/>
+              <Flokkur flokkur={adrir} heiti={'Annað'}/>
             </div>
           </div>
           </div>

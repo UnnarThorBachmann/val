@@ -22,7 +22,7 @@ class Flokkur extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      afangar: {}
+      afangar: props.afangar
     };
   }
   
@@ -68,8 +68,13 @@ class Flokkur extends React.Component {
   componentWillReceiveProps(nextProps) {
     this.setState({afangar: nextProps.afangar});
   }
+  componentWillMount() {
+    
+    this.setState({afangar: this.props.afangar});
+  }
   render() {
   const {flokkur,heiti} = this.props;
+  
   return (
     
       <div style={{padding: '5%'}}>
@@ -88,7 +93,7 @@ class Flokkur extends React.Component {
                   <FormControlLabel
                     control={
                       <Checkbox
-                        checked={this.state.afangar.valinn}
+                        checked={this.state.afangar[afangi]?this.state.afangar[afangi].valinn:false}
                         onChange={this.handleChange(`${afangi}`)}
                         value={`${afangi}`}
                         disabled={this.handleDisable(`${afangi}`)}
