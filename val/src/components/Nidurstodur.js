@@ -173,13 +173,13 @@ class Nidurstodur extends React.Component {
             
             {
               (onn === 'Haust') &&
-              <div style={{width: "23%"}}>
+              <div style={{width: "30%"}}>
                 <Flokkur2 flokkur={ovaldir_haust_kjarni} heiti={'Val fyrir haust (kjarni)'}/>
               </div>
             }
             {
               (onn === 'Haust') &&
-              <div style={{width: "23%"}}>
+              <div style={{width: "30%"}}>
                 <Flokkur2 flokkur={adrir_ovaldir_haust} heiti={'Annað val haust'}/>
               </div>
             }

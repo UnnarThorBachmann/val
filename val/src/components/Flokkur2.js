@@ -18,6 +18,12 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListSubheader from '@material-ui/core/ListSubheader';
 import ListItemText from '@material-ui/core/ListItemText';
+import Check from '@material-ui/icons/Report';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemAvatar from '@material-ui/core/ListItemAvatar';
+import Avatar from '@material-ui/core/Avatar';
+import FolderIcon from '@material-ui/icons/Folder';
+import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction';
 
 const styles = {
   
@@ -32,15 +38,6 @@ class Flokkur2 extends React.Component {
     };
   }
   
-
-  handleChange = name => event => {
-    const {dispatch} = this.props;
-    
-    if (event.target.checked )
-      dispatch(addAfangi({heiti: name, valinn: true, feiningar: afangar[name].feiningar, threp: afangar[name].threp}))
-    else
-      dispatch(deleteAfangi(name))
-  };
 
   handleDisable = (name)=> {
     
@@ -93,10 +90,27 @@ class Flokkur2 extends React.Component {
               component="nav"
               subheader={<ListSubheader component="div">{`${tegund}`}</ListSubheader>}
             >
+            
              {
                 flokkur[tegund].map(afangi =>
-                  <ListItem> 
-                    <ListItemText inset primary={`${afangi}`} />
+                  <ListItem key={afangi}>
+                    <Tooltip id="tooltip-icon" title={`Undanfarar: ${afangar[afangi].athugasemdir}`}>
+                     <ListItemAvatar>
+                        <Avatar>
+                          <FolderIcon />
+                        </Avatar>
+                      </ListItemAvatar>
+                    </Tooltip>
+
+                    <ListItemText inset primary={`${afangi} `} />
+                     { this.handleDisable(afangi) &&
+                     <ListItemSecondaryAction>
+                     
+                      <IconButton aria-label="Check">
+                        <Check />
+                      </IconButton>
+                    </ListItemSecondaryAction>
+                    }
                   </ListItem>
                 )
             }
