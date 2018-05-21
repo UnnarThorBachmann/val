@@ -16,22 +16,17 @@ import {addAfangi,deleteAfangi} from '../actions';
 import {Brautir, allir} from '../helpers'
 import grunnur from '../data/gogn.js';
 import Radio from '@material-ui/core/Radio';
-import Flokkur2 from '../components/Flokkur2.js';
 
 const styles = {
   
 };
 
 
-class Nidurstodur extends React.Component {
+class Nidurstodur2 extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       ovaldir: {},
-      ovaldir_vor_kjarni: {},
-      ovaldir_haust_kjarni: {},
-      adrir_ovaldir_haust: {},
-      adrir_ovaldir_vor: {},
       onn: 'Haust'
     };
   }
@@ -96,43 +91,43 @@ class Nidurstodur extends React.Component {
       delete brautarsamsetning_alt[t];
     }
     let ovaldir = Object.keys(brautarsamsetning_alt).reduce(function(acc,curr) {return {...acc, [curr]: brautarsamsetning_alt[curr].filter(item=> !afangar[item])}},{});
+    console.log(ovaldir);
     this.setState({ovaldir: ovaldir})
+    console.log(grunnur);
     let ovaldir_haust_kjarni = Object.keys(ovaldir).reduce(function(acc,curr){
       
       return {...acc, [curr]: ovaldir[curr].filter(item=> grunnur[item].kennt.indexOf('haust') !==-1)}
     },{})
-    this.setState({ovaldir_haust_kjarni: ovaldir_haust_kjarni})
-
+    console.log('Óvaldir haust kjarni', ovaldir_haust_kjarni);
     let ovaldir_vor_kjarni = Object.keys(ovaldir).reduce(function(acc,curr){
       
       return {...acc, [curr]: ovaldir[curr].filter(item=> grunnur[item].kennt.indexOf('vor') !==-1)}
     },{})
-    this.setState({ovaldir_vor_kjarni: ovaldir_vor_kjarni})
-    const adrir_ovaldir_helper = Object.keys(grunnur).filter(item=> !afangar[item]);
+    console.log('Óvaldir vor kjarni',ovaldir_vor_kjarni);
+    const adrir_ovaldir = Object.keys(grunnur).filter(item=> !afangar[item]).sort();
+    const adrir_ovaldir_haust = adrir_ovaldir.filter(item=> grunnur[item].kennt.indexOf('haust')!==-1)
+    const adrir_ovaldir_vor = adrir_ovaldir.filter(item=> grunnur[item].kennt.indexOf('vor')!==-1)
+    const adrir_ovaldir_breytilegt = adrir_ovaldir.filter(item=> grunnur[item].kennt.indexOf('breytilegt')!==-1)
+
+    console.log('aðrir', adrir_ovaldir);
+    console.log('aðrir óvaldir haust', adrir_ovaldir_haust);
+    console.log('aðrir óvaldir vor', adrir_ovaldir_vor);
+    console.log('aðrir óvaldir breytilegt', adrir_ovaldir_breytilegt);
+
+    //console.log('Mál', mal);
+    //console.log('Grunnur',grunnur);
     
-    const adrir_ovaldir = Object.keys(allir).reduce(function(acc,curr){
-      return {...acc, [curr]: allir[curr].filter(item=> adrir_ovaldir_helper.indexOf(item) !==-1)}
-    },{});
-    let kjarnafog = Object.keys(brautarsamsetning_alt).reduce(function(acc,curr){ 
-      return acc.concat(brautarsamsetning_alt[curr]);
-    },[]);
-
-    let adrir_ovaldir_haust_helper = adrir_ovaldir_helper.filter(item=> ((kjarnafog.indexOf(item) === -1) && (grunnur[item].kennt.indexOf('haust')!==-1)));
-    const adrir_ovaldir_haust = Object.keys(allir).reduce(function(acc,curr){
-      return {...acc, [curr]: allir[curr].filter(item=> adrir_ovaldir_haust_helper.indexOf(item) !==-1)}
-    },{});
-    this.setState({adrir_ovaldir_haust: adrir_ovaldir_haust}); 
-
-    let adrir_ovaldir_vor_helper = adrir_ovaldir_helper.filter(item=> ((kjarnafog.indexOf(item) === -1) && (grunnur[item].kennt.indexOf('vor')!==-1)));
-    const adrir_ovaldir_vor = Object.keys(allir).reduce(function(acc,curr){
-      return {...acc, [curr]: allir[curr].filter(item=> adrir_ovaldir_vor_helper.indexOf(item) !==-1)}
-    },{});
-    this.setState({adrir_ovaldir_vor: adrir_ovaldir_vor}); 
-
+    //const brautarsamsetning_alt = Object.keys(brautarsamsetning).reduce(function(acc,curr) {return {...acc, ...brautarsamsetning[curr]}},{})
+    //let adrir = {...allir};
     
+    //adrir = Object.keys(brautarsamsetning_alt).reduce(function(acc,curr) {
+    //  return {...acc, [curr]: allir[curr].filter(item=> brautarsamsetning_alt[curr].indexOf(item) ===-1)};
+    //
+    //},{});
+    //console.log('adrir',adrir);
   }
   render() {
-  const {ovaldir_vor_kjarni, ovaldir_haust_kjarni,onn,adrir_ovaldir_haust,adrir_ovaldir_vor} = this.state;
+  
   return (
     
       <div style={{padding: '5%'}}>
@@ -157,33 +152,10 @@ class Nidurstodur extends React.Component {
                 </div>
         </div>
         <h4>Niðurstöður</h4>
-        <div style={{display: 'flex',flexDirection: 'row',flexWrap: 'wrap', justifyContent: 'flex-start'}}>
-            {
-              (onn === 'Vor') &&
-              <div style={{width: "23%"}}>
-                <Flokkur2 flokkur={ovaldir_vor_kjarni} heiti={'Val fyrir vor (kjarni)'}/>
-              </div>
-            }
-            {
-              (onn === 'Vor') &&
-              <div style={{width: "23%"}}>
-                <Flokkur2 flokkur={adrir_ovaldir_vor} heiti={'Annað val vor'}/>
-              </div>
-            }
-            
-            {
-              (onn === 'Haust') &&
-              <div style={{width: "23%"}}>
-                <Flokkur2 flokkur={ovaldir_haust_kjarni} heiti={'Val fyrir haust (kjarni)'}/>
-              </div>
-            }
-            {
-              (onn === 'Haust') &&
-              <div style={{width: "23%"}}>
-                <Flokkur2 flokkur={adrir_ovaldir_haust} heiti={'Annað val haust'}/>
-              </div>
-            }
-            
+        <div style={{width: '100%', borderStyle: 'solid', borderWidth: '2px', padding: '2%'}}>
+        
+    
+        
         </div>
       </div>
     );
@@ -195,4 +167,4 @@ const mapStateToProps = (state)=> ({
     mal: state.mal
 });
 
-export default connect(mapStateToProps)(Nidurstodur)
+export default connect(mapStateToProps)(Nidurstodur2)

@@ -23,7 +23,7 @@ const styles = {
 };
 
 
-class Nidurstodur extends React.Component {
+class Annad extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -133,6 +133,7 @@ class Nidurstodur extends React.Component {
   }
   render() {
   const {ovaldir_vor_kjarni, ovaldir_haust_kjarni,onn,adrir_ovaldir_haust,adrir_ovaldir_vor} = this.state;
+  console.log(onn);
   return (
     
       <div style={{padding: '5%'}}>
@@ -195,4 +196,4 @@ const mapStateToProps = (state)=> ({
     mal: state.mal
 });
 
-export default connect(mapStateToProps)(Nidurstodur)
+export default connect(mapStateToProps)(Annad)

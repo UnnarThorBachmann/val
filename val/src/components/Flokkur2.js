@@ -13,12 +13,18 @@ import IconButton from '@material-ui/core/IconButton';
 import Tooltip from '@material-ui/core/Tooltip';
 import {connect} from 'react-redux';
 import {addAfangi,deleteAfangi} from '../actions'; 
+import Switch from '@material-ui/core/Switch';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListSubheader from '@material-ui/core/ListSubheader';
+import ListItemText from '@material-ui/core/ListItemText';
+
 const styles = {
   
 };
 
 
-class Flokkur extends React.Component {
+class Flokkur2 extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -73,51 +79,32 @@ class Flokkur extends React.Component {
     this.setState({afangar: this.props.afangar});
   }
   render() {
-  const {flokkur,heiti,sia} = this.props;
-  const flokkur_siadur = sia.reduce(function(acc,curr){
-    return {...acc, [curr]: flokkur[curr]}
-  },{});
+  const {flokkur,heiti} = this.props;
+  
   return (
     
       <div style={{padding: '5%'}}>
         <div style={{width: '100%', borderStyle: 'solid', borderWidth: '2px', padding: '2%'}}>
         <h4>{heiti}</h4>
-    
-        <FormControl component="fieldset">
-          {
-            Object.keys(flokkur_siadur).map(tegund=> 
+              {
+            Object.keys(flokkur).map(tegund=> 
             <div key={`${tegund}`}>
-            <FormLabel component="legend">{`${tegund}`}</FormLabel>
-              <FormGroup>
-                {
-                flokkur[tegund].map(afangi => 
-                <div key={`${afangi}`}>
-                  <FormControlLabel
-                    control={
-                      <Checkbox
-                        checked={this.state.afangar[afangi]?this.state.afangar[afangi].valinn:false}
-                        onChange={this.handleChange(`${afangi}`)}
-                        value={`${afangi}`}
-                        disabled={this.handleDisable(`${afangi}`)}
-                      />
-                    }
-                    label={`${afangi} (${afangar[afangi]?afangar[afangi].gamaltHeiti:''})`}
-                  />
-                  {(afangar[afangi] && afangar[afangi].athugasemdir !== 'null') &&
-                  <Tooltip id="tooltip-icon" title={`Undanfarar: ${afangar[afangi].athugasemdir}`}>
-                    <IconButton aria-label="Help">
-                      <HelpIcon />
-                    </IconButton>
-                  </Tooltip>
-                  }
-                </div>
+            <List
+              component="nav"
+              subheader={<ListSubheader component="div">{`${tegund}`}</ListSubheader>}
+            >
+             {
+                flokkur[tegund].map(afangi =>
+                  <ListItem> 
+                    <ListItemText inset primary={`${afangi}`} />
+                  </ListItem>
                 )
-                }
-              </FormGroup>
+            }
+            </List>
+            
             </div>
             )
           }
-        </FormControl>
         </div>
       </div>
     );
@@ -128,4 +115,4 @@ const mapStateToProps = (state)=> ({
     afangar: state.afangar,
 });
 
-export default connect(mapStateToProps)(Flokkur)
+export default connect(mapStateToProps)(Flokkur2)

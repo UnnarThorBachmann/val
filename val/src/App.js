@@ -3,8 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 import ValAppBar from './components/ValAppBar.js';
 import ValAppBar2 from './components/ValAppBar2.js';
+import ValAppBar3 from './components/ValAppBar3.js';
 
 import Flokkur from './components/Flokkur.js';
+
 import Nidurstodur from './components/Nidurstodur.js';
 
 import afangar from './data/gogn.js';
@@ -15,7 +17,9 @@ import {withRouter} from 'react-router-dom';
 import {Route} from 'react-router-dom';
 import {Link} from 'react-router-dom';
 import {Brautir, allir} from './helpers'
-
+import FormGroup from '@material-ui/core/FormGroup';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import Checkbox from '@material-ui/core/Checkbox';
 
 
 
@@ -24,7 +28,7 @@ import {Brautir, allir} from './helpers'
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {afangar: props.afangar, braut: props.braut, mal: props.mal}
+    this.state = {afangar: props.afangar, braut: props.braut, mal: props.mal,valid:[]}
   }
  
   
@@ -40,13 +44,24 @@ class App extends Component {
     dispatch(changeMal(event.target.value));
 
   };
+  
+  velja = name => event => {
+   
+    if (event.target.checked) {
+      this.setState((prevState)=>({valid: prevState.valid.concat(name)}));
+    }
+    else {
+      console.log('b')
+      this.setState((prevState)=>({valid: prevState.valid.filter(item=>item !== name)}));
+    }
+  };
 
 
   componentWillReceiveProps(nextProps) {
     this.setState({afangar: nextProps.afangar, braut: nextProps.braut, mal: nextProps.mal});
   }
   componentWillMount() {
-    console.log('her')
+    
     this.setState({afangar: this.props.afangar, braut: this.props.braut, mal: this.props.mal});
   }
   render() {
@@ -56,18 +71,22 @@ class App extends Component {
     const brautarsamsetning_alt = Object.keys(brautarsamsetning).reduce(function(acc,curr) {return {...acc, ...brautarsamsetning[curr]}},{})
     let adrir = {...allir};
     
-    adrir = Object.keys(brautarsamsetning_alt).reduce(function(acc,curr) {
-      
-        return {...acc, [curr]: allir[curr].filter(item=> brautarsamsetning_alt[curr].indexOf(item) ===-1)};
-      
+    adrir = Object.keys(allir).reduce(function(acc,curr) {
+        if (brautarsamsetning_alt[curr])
+          return {...acc, [curr]: allir[curr].filter(item=> brautarsamsetning_alt[curr].indexOf(item) ===-1)};
+        else
+          return {...acc, [curr]: allir[curr]};
     },{});
     return (
       <div className="App" >
         <Route exact path="/" render ={() => (
           <ValAppBar/>
         )}/>
-        <Route exact path="/nidurstodur" render ={() => (
+        <Route exact path="/annad" render ={() => (
           <ValAppBar2/>
+        )}/>
+         <Route exact path="/nidurstodur" render ={() => (
+          <ValAppBar3/>
         )}/>
         <Route exact path="/" render ={() => (
           <div>
@@ -127,23 +146,48 @@ class App extends Component {
             </div>
             <div style={{display: 'flex',flexDirection: 'row',flexWrap: 'wrap', justifyContent: 'flex-start'}}>
             <div style={{width: "23%"}}>
-              <Flokkur flokkur={brautarsamsetning['Bóknámskjarni']} heiti={'Bóknámskjarni'}/>
+              <Flokkur flokkur={brautarsamsetning['Bóknámskjarni']} heiti={'Bóknámskjarni'} sia={Object.keys(brautarsamsetning['Bóknámskjarni'])}/>
             </div>
             <div style={{width: "23%"}}>
-              <Flokkur flokkur={brautarsamsetning['Þriðja']} heiti={'Þriðja mál'}/>
+              <Flokkur flokkur={brautarsamsetning['Þriðja']} heiti={'Þriðja mál'} sia={Object.keys(brautarsamsetning['Þriðja'])}/>
             </div>
             <div style={{width: "23%"}}> 
-              <Flokkur flokkur={brautarsamsetning['Brautarkjarni']} heiti={'Brautarkjarni'}/>
+              <Flokkur flokkur={brautarsamsetning['Brautarkjarni']} heiti={'Brautarkjarni'} sia={Object.keys(brautarsamsetning['Brautarkjarni'])}/>
               {
                 (brautarsamsetning['Brautarval']) &&
-                <Flokkur flokkur={brautarsamsetning['Brautarval']} heiti={'Brautarval'}/>
+                <Flokkur flokkur={brautarsamsetning['Brautarval']} heiti={'Brautarval'} sia={Object.keys(brautarsamsetning['Brautarval'])}/>
               }
             </div>
-            <div style={{width: "23%"}}> 
-              <Flokkur flokkur={adrir} heiti={'Annað'}/>
-            </div>
+            
           </div>
           </div>
+          )}/>
+          <Route exact path="/annad" render ={() => (
+              <div>
+              <div style={{padding: '2%'}}>
+              <FormGroup row>
+                {
+                Object.keys(adrir).map(item =>
+                  <FormControlLabel
+                    key={item}
+                    control={
+                      <Checkbox
+                        checked={this.state.valid[item]}
+                        onChange={this.velja(`${item}`)}
+                        value={`${item}`}
+                      />
+                    }
+                    label={`${item}`}
+                  />
+                )}
+              </FormGroup>
+              </div>
+              <div style={{display: 'flex',flexDirection: 'row',flexWrap: 'wrap', justifyContent: 'space-around'}}> 
+                <div style={{width: "23%"}}> 
+                  <Flokkur flokkur={adrir} heiti={'Annað'} sia={this.state.valid}/>
+                </div>
+              </div>
+              </div>
           )}/>
         <Route exact path="/nidurstodur" render ={() => (
           <Nidurstodur/>

@@ -18,9 +18,9 @@ class ValAppBar2 extends React.Component {
       <AppBar position="static" style={{height: '60px', paddingTop: '1%', paddingBottom: '1%', paddingLeft: '5%'}}>
         <div style={{display: 'flex',flexDirection: 'row',flexWrap: 'wrap', justifyContent: 'flex-end', paddingLeft: '5%', paddingRight: '5%'}}>
           <div>
-            <Link to="/">
+            <Link to="/nidurstodur">
             <Button variant="outlined" color="secondary">
-              Aftur
+              Áfram
             </Button>
           </Link>
           </div>
