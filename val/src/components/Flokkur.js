@@ -1,11 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
+
 import FormLabel from '@material-ui/core/FormLabel';
 import FormControl from '@material-ui/core/FormControl';
 import FormGroup from '@material-ui/core/FormGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
-import FormHelperText from '@material-ui/core/FormHelperText';
 import Checkbox from '@material-ui/core/Checkbox';
 import afangar from '../data/gogn.js';
 import HelpIcon from '@material-ui/icons/Help';
@@ -13,9 +11,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Tooltip from '@material-ui/core/Tooltip';
 import {connect} from 'react-redux';
 import {addAfangi,deleteAfangi} from '../actions'; 
-const styles = {
-  
-};
+
 
 
 class Flokkur extends React.Component {
