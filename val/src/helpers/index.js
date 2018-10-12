@@ -33,7 +33,7 @@ export const allir = {
   Enska: ['ENSK2LO05','ENSK3RO05','ENSK2OB05','ENSK3SA05',"ENSK1GR05", "ENSK1UN05", "ENSK2LO03", "ENSK2VE05", "ENSK2EH05", "ENLÆ3LÓ05", "ENSK3BM05", "ENLÆ3ÞÆ04", "ENSK3RI05", "ENSK3KV05", "ENSK3ME05",],
   Félagsvísindi: ['FÉLV1IF05'],
   Íslenska: ['ÍSLE2BS05', 'ÍSLE3BÓ05', 'ÍSLE2GM05','ÍSLE3NB05',"ÍSLE1GR05", "ÍSLE1UN05", "ÍSLE2GM03", "ÍSLE3BU05", "ÍSLE3LG05", "ÍSLE2HM05", "ÍSLE2MR05", "ÍSTA1AG05","ÍSAN1GR05", "ÍSAN2GM05", "ÍSAN3BÓ05", "ÍSAN2BS05", "ÍSAN3NB05"],
-  Íþróttir: ['ÍÞRÓ1AA01','ÍÞRÓ1AB01','ÍÞRÓ1AC01','ÍÞRÓ1AD01','ÍÞRÓ1AE01','ÍÞRÓ1AF01',"ÍÞRÓ1GH03", "ÍÞRÓ1LS01", "ÍÞRÓ1HJ01", "ÍÞRÓ1FJ01","ÍÞRG2HA03", "ÍÞRG2KN03", "ÍÞRG2KÖ03", "ÍÞRG2LÍ03", "ÍÞRG2OP03","ÍÞRG1KN02", "ÍÞNT3ÍT05", ,"ÍÞNT2KY03", "ÍÞRG2BL03",, "JÓGA1HR02"],
+  Íþróttir: ['ÍÞRÓ1AA01','ÍÞRÓ1AB01','ÍÞRÓ1AC01','ÍÞRÓ1AD01','ÍÞRÓ1AE01','ÍÞRÓ1AF01',"ÍÞRÓ1GH03", "ÍÞRÓ1LS01", "ÍÞRÓ1HJ01", "ÍÞRÓ1FJ01","ÍÞRG2HA03", "ÍÞRG2KN03", "ÍÞRG2KÖ03", "ÍÞRG2LÍ03", "ÍÞRG2OP03","ÍÞRG1KN02", "ÍÞNT3ÍT05" ,"ÍÞNT2KY03", "ÍÞRG2BL03", "JÓGA1HR02"],
   Lífsleikni: ['LÍFS1BS02', 'LÍFS1ÉG03'],
   Raunvísindi: ['RAUN1JE05','RAUN1LE05',"RAUN1LÍ05", "RAUN1JA05", "RAUN1EE05"],
   Saga: ['SAGA1MF05','SAGA2NS05','SAGA2LS05','SAGA3KM05','SAGA2TS05','SAGA3MA05', "SAGA3MM05"],
@@ -76,7 +76,7 @@ export const allir = {
   "KENN3KK04", "KLNU3NT07", "LEIK1GR05", "LEIS1SL05", 
   "LYHR3MÖ05", "LYHR3KS05", "LYHR3TH05", "LYHR3HK05", "LIME2MM05", "LIME2LS05", "LÍBE1HB01", "ÍÞRÓ1LÍ01", "LJÓS2SM05", "LYLÖ1LR05", 
   "LORI3HH05", "LOKA2FV03", "LAUS2LR05", "LYGE3LÚ05", "LYGE3VL07", "LYHV2FD05", "LYHV2LL05", "LÆKN2LY09", "LÆKN3HT09", "MAGR2MG05", 
-  "FORM2MF05", , "LESA1DY05", "NÁTL2NN05", "FÆBÓ2FH05", "NÝSK2HH05", "ORKM3OM05", 
+  "FORM2MF05", "LESA1DY05", "NÁTL2NN05", "FÆBÓ2FH05", "NÝSK2HH05", "ORKM3OM05", 
   "RÁÐG1RG01", "RITV1NÁ05", "RTGF2GR03", "RTGF3ÞJ03", "SASK2SS05", "VIHB2SJ10", "SIÐF2SF05", "SJÚK2MS05", 
   "SJÚK2GH05", "SKER3HA01", "SKJA1SV02", "SKRÁ2TT05", "SKYN2EÁ01", "SOGN3SO05", "SÓTT2SÓ04","SÓTT3DA04", "SÓTS1HR05", 
   "SPUR1SP03", "STRN2SR04", "STHE1HÞ05", "STÍH4GV04", "STAF3ÞJ27", 
@@ -89,30 +89,30 @@ export const allir = {
 export const Brautir = {
   "Félagsfræðibraut": {
                         Bóknámskjarni: boknamskjarni,
+                        Þriðja: thridja,
                         Brautarkjarni: {
                           Félagsfræði: ['FÉLA2KE05'],
                           Saga: ['SAGA3MM05'],
                           Sálfræði: ['SÁLF2AA05'], 
 
                         },
-                        Þriðja: thridja,
                         Brautarval: fel_val                                 
                       },
   "Náttúrufræðibraut": {
                         Bóknámskjarni: boknamskjarni,
+                        Þriðja: thridja,
                         Brautarkjarni: {
                           Eðlisfræði: ['EÐLI2GR05'],
                           Efnafræði: ['EFNA2AM05','EFNA2GE05'],
                           Jarðfræði: ['JARÐ2JÍ05'],
                           Líffræði: ['LÍFF2LE05','LÍFF3EF05'],
                           Stærðfræði: ['STÆR2AM05','STÆR3FD05','STÆR2HV05','STÆR3RH05']
-                      },
-                      Þriðja: thridja,
-                      Brautarval: null 
+                      }
                     },
   "Viðskipta- og hagfræðibraut":
                               {
-                                Bóknámskjarni: boknamskjarni,   
+                                Bóknámskjarni: boknamskjarni,
+                                Þriðja: thridja,   
                                 Brautarkjarni: {
                                     Bókfærsla: ['BÓKF1IB05', 'BÓKF2FB05'],
                                     Fjármál: ['FJMÁ2FF05'],
@@ -122,7 +122,6 @@ export const Brautir = {
                                     Nýsköpun: ['NÝSK3SF05'],
                                     Stærðfræði: ['STÆR2AM05', 'STÆR3FD05', 'STÆR2HV05']
                                 },
-                                Þriðja: thridja,
-                                Brautarval: null
+                                
                               }
 }
