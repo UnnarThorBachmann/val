@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import ValAppBar from './components/ValAppBar.js';
 import ValAppBar2 from './components/ValAppBar2.js';
@@ -9,13 +8,11 @@ import Flokkur from './components/Flokkur.js';
 
 import Nidurstodur from './components/Nidurstodur.js';
 
-import afangar from './data/gogn.js';
 import {connect} from 'react-redux';
 import {changeBraut,changeMal} from './actions'; 
 import Radio from '@material-ui/core/Radio';
 import {withRouter} from 'react-router-dom';
 import {Route} from 'react-router-dom';
-import {Link} from 'react-router-dom';
 import {Brautir, allir} from './helpers'
 import FormGroup from '@material-ui/core/FormGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
